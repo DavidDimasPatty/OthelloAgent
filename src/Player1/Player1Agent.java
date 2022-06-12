@@ -52,7 +52,7 @@ public class Player1Agent extends Agent
                     // menjawab tawaran
                     msg.setContent( "Okay!" );
                     msg.addReceiver( new AID( "tic", AID.ISLOCALNAME) );
-                    System.out.println("Tac -> Tic: "+ msg.getContent());
+                    System.out.println("Player2-> Player1: "+ msg.getContent());
                     send(msg); // masuk ke tahap bermain
                     step = 1; 
                 }
