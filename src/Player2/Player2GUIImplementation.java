@@ -1003,222 +1003,278 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
 
     private void BT22ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT22ActionPerformed
         // TODO add your handling code here:
+         BtnActionPerformed(BT22);
     }//GEN-LAST:event_BT22ActionPerformed
 
     private void BT23ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT23ActionPerformed
         // TODO add your handling code here:
+         BtnActionPerformed(BT23);
     }//GEN-LAST:event_BT23ActionPerformed
 
     private void BT24ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT24ActionPerformed
         // TODO add your handling code here:
+         BtnActionPerformed(BT24);
     }//GEN-LAST:event_BT24ActionPerformed
 
     private void BT25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT25ActionPerformed
         // TODO add your handling code here:
+         BtnActionPerformed(BT25);
     }//GEN-LAST:event_BT25ActionPerformed
 
     private void BT26ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT26ActionPerformed
         // TODO add your handling code here:
+         BtnActionPerformed(BT26);
     }//GEN-LAST:event_BT26ActionPerformed
 
     private void BT27ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT27ActionPerformed
         // TODO add your handling code here:
+         BtnActionPerformed(BT27);
     }//GEN-LAST:event_BT27ActionPerformed
 
     private void BT28ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT28ActionPerformed
         // TODO add your handling code here:
+         BtnActionPerformed(BT28);
     }//GEN-LAST:event_BT28ActionPerformed
 
     private void BT31ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT31ActionPerformed
         // TODO add your handling code here:
+         BtnActionPerformed(BT31);
     }//GEN-LAST:event_BT31ActionPerformed
 
     private void BT32ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT32ActionPerformed
         // TODO add your handling code here:
+         BtnActionPerformed(BT32);
     }//GEN-LAST:event_BT32ActionPerformed
 
     private void BT33ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT33ActionPerformed
         // TODO add your handling code here:
+         BtnActionPerformed(BT33);
     }//GEN-LAST:event_BT33ActionPerformed
 
     private void BT34ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT34ActionPerformed
         // TODO add your handling code here:
+         BtnActionPerformed(BT34);
     }//GEN-LAST:event_BT34ActionPerformed
 
     private void BT35ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT35ActionPerformed
         // TODO add your handling code here:
+         BtnActionPerformed(BT35);
     }//GEN-LAST:event_BT35ActionPerformed
 
     private void BT36ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT36ActionPerformed
         // TODO add your handling code here:
+         BtnActionPerformed(BT36);
     }//GEN-LAST:event_BT36ActionPerformed
 
     private void BT37ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT37ActionPerformed
         // TODO add your handling code here:
+         BtnActionPerformed(BT37);
     }//GEN-LAST:event_BT37ActionPerformed
 
     private void BT38ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT38ActionPerformed
         // TODO add your handling code here:
+         BtnActionPerformed(BT38);
     }//GEN-LAST:event_BT38ActionPerformed
 
     private void BT41ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT41ActionPerformed
         // TODO add your handling code here:
+         BtnActionPerformed(BT41);
     }//GEN-LAST:event_BT41ActionPerformed
 
     private void BT42ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT42ActionPerformed
         // TODO add your handling code here:
+         BtnActionPerformed(BT42);
     }//GEN-LAST:event_BT42ActionPerformed
 
     private void BT43ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT43ActionPerformed
         // TODO add your handling code here:
+         BtnActionPerformed(BT43);
     }//GEN-LAST:event_BT43ActionPerformed
 
     private void BT44ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT44ActionPerformed
         // TODO add your handling code here:
+         BtnActionPerformed(BT44);
     }//GEN-LAST:event_BT44ActionPerformed
 
     private void BT45ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT45ActionPerformed
         // TODO add your handling code here:
+         BtnActionPerformed(BT45);
     }//GEN-LAST:event_BT45ActionPerformed
 
     private void BT46ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT46ActionPerformed
         // TODO add your handling code here:
+         BtnActionPerformed(BT46);
     }//GEN-LAST:event_BT46ActionPerformed
 
     private void BT47ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT47ActionPerformed
         // TODO add your handling code here:
+         BtnActionPerformed(BT47);
     }//GEN-LAST:event_BT47ActionPerformed
 
     private void BT48ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT48ActionPerformed
         // TODO add your handling code here:
+         BtnActionPerformed(BT48);
     }//GEN-LAST:event_BT48ActionPerformed
 
     private void BT51ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT51ActionPerformed
         // TODO add your handling code here:
+         BtnActionPerformed(BT51);
     }//GEN-LAST:event_BT51ActionPerformed
 
     private void BT52ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT52ActionPerformed
         // TODO add your handling code here:
+         BtnActionPerformed(BT52);
     }//GEN-LAST:event_BT52ActionPerformed
 
     private void BT53ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT53ActionPerformed
         // TODO add your handling code here:
+         BtnActionPerformed(BT53);
     }//GEN-LAST:event_BT53ActionPerformed
 
     private void BT54ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT54ActionPerformed
         // TODO add your handling code here:
+         BtnActionPerformed(BT54);
+         
     }//GEN-LAST:event_BT54ActionPerformed
 
     private void BT55ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT55ActionPerformed
         // TODO add your handling code here:
+         BtnActionPerformed(BT55);
     }//GEN-LAST:event_BT55ActionPerformed
 
     private void BT56ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT56ActionPerformed
         // TODO add your handling code here:
+         BtnActionPerformed(BT56);
     }//GEN-LAST:event_BT56ActionPerformed
 
     private void BT57ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT57ActionPerformed
         // TODO add your handling code here:
+         BtnActionPerformed(BT57);
     }//GEN-LAST:event_BT57ActionPerformed
 
     private void BT58ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT58ActionPerformed
         // TODO add your handling code here:
+         BtnActionPerformed(BT58);
     }//GEN-LAST:event_BT58ActionPerformed
 
     private void BT61ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT61ActionPerformed
         // TODO add your handling code here:
+         BtnActionPerformed(BT61);
     }//GEN-LAST:event_BT61ActionPerformed
 
     private void BT62ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT62ActionPerformed
         // TODO add your handling code here:
+         BtnActionPerformed(BT62);
     }//GEN-LAST:event_BT62ActionPerformed
 
     private void BT63ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT63ActionPerformed
         // TODO add your handling code here:
+         BtnActionPerformed(BT63);
     }//GEN-LAST:event_BT63ActionPerformed
 
     private void BT64ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT64ActionPerformed
         // TODO add your handling code here:
+         BtnActionPerformed(BT64);
     }//GEN-LAST:event_BT64ActionPerformed
 
     private void BT65ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT65ActionPerformed
         // TODO add your handling code here:
+         BtnActionPerformed(BT65);
     }//GEN-LAST:event_BT65ActionPerformed
 
     private void BT66ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT66ActionPerformed
         // TODO add your handling code here:
+         BtnActionPerformed(BT66);
     }//GEN-LAST:event_BT66ActionPerformed
 
     private void BT67ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT67ActionPerformed
         // TODO add your handling code here:
+         BtnActionPerformed(BT67);
     }//GEN-LAST:event_BT67ActionPerformed
 
     private void BT68ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT68ActionPerformed
         // TODO add your handling code here:
+         BtnActionPerformed(BT68);
     }//GEN-LAST:event_BT68ActionPerformed
 
     private void BT71ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT71ActionPerformed
         // TODO add your handling code here:
+         BtnActionPerformed(BT71);
     }//GEN-LAST:event_BT71ActionPerformed
 
     private void BT72ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT72ActionPerformed
         // TODO add your handling code here:
+         BtnActionPerformed(BT72);
     }//GEN-LAST:event_BT72ActionPerformed
 
     private void BT73ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT73ActionPerformed
         // TODO add your handling code here:
+         BtnActionPerformed(BT73);
     }//GEN-LAST:event_BT73ActionPerformed
 
     private void BT74ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT74ActionPerformed
         // TODO add your handling code here:
+         BtnActionPerformed(BT74);
     }//GEN-LAST:event_BT74ActionPerformed
 
     private void BT75ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT75ActionPerformed
         // TODO add your handling code here:
+         BtnActionPerformed(BT75);
     }//GEN-LAST:event_BT75ActionPerformed
 
     private void BT76ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT76ActionPerformed
         // TODO add your handling code here:
+         BtnActionPerformed(BT76);
     }//GEN-LAST:event_BT76ActionPerformed
 
     private void BT77ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT77ActionPerformed
         // TODO add your handling code here:
+         BtnActionPerformed(BT77);
     }//GEN-LAST:event_BT77ActionPerformed
 
     private void BT78ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT78ActionPerformed
         // TODO add your handling code here:
+         BtnActionPerformed(BT78);
     }//GEN-LAST:event_BT78ActionPerformed
 
     private void BT81ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT81ActionPerformed
         // TODO add your handling code here:
+         BtnActionPerformed(BT81);
     }//GEN-LAST:event_BT81ActionPerformed
 
     private void BT82ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT82ActionPerformed
         // TODO add your handling code here:
+         BtnActionPerformed(BT82);
     }//GEN-LAST:event_BT82ActionPerformed
 
     private void BT83ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT83ActionPerformed
         // TODO add your handling code here:
+         BtnActionPerformed(BT83);
     }//GEN-LAST:event_BT83ActionPerformed
 
     private void BT84ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT84ActionPerformed
         // TODO add your handling code here:
+         BtnActionPerformed(BT84);
     }//GEN-LAST:event_BT84ActionPerformed
 
     private void BT85ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT85ActionPerformed
         // TODO add your handling code here:
+         BtnActionPerformed(BT85);
     }//GEN-LAST:event_BT85ActionPerformed
 
     private void BT86ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT86ActionPerformed
         // TODO add your handling code here:
+         BtnActionPerformed(BT86);
     }//GEN-LAST:event_BT86ActionPerformed
 
     private void BT87ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT87ActionPerformed
         // TODO add your handling code here:
+         BtnActionPerformed(BT87);
     }//GEN-LAST:event_BT87ActionPerformed
 
     private void BT88ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT88ActionPerformed
         // TODO add your handling code here:
+         BtnActionPerformed(BT88);
     }//GEN-LAST:event_BT88ActionPerformed
     
     void BtnActionPerformed(javax.swing.JButton btn) {
