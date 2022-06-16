@@ -1302,6 +1302,7 @@ btnActionPerformed(BT55);
     }//GEN-LAST:event_BT87ActionPerformed
 
     private void btnActionPerformed(javax.swing.JButton btn){
+        System.out.println("Button Clicked");
         if (btn.isEnabled() && myAgent.isTurn()) {
             btn.setBackground(Color.black);
             deactivateButton();

@@ -46,12 +46,13 @@ public class Player1Agent extends Agent
         public void action() {
             if (step == 0) {
                 msg = receive();
+                System.out.println(msg);
                 if (msg != null) {
                     lastMsg = msg.getContent();
                     msg = new ACLMessage(ACLMessage.INFORM);
                     // menjawab tawaran
                     msg.setContent( "Okay!" );
-                    msg.addReceiver( new AID( "tic", AID.ISLOCALNAME) );
+                    msg.addReceiver( new AID( "Player2", AID.ISLOCALNAME) );
                     System.out.println("Player2-> Player1: "+ msg.getContent());
                     send(msg); // masuk ke tahap bermain
                     step = 1; 

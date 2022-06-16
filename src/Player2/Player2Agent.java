@@ -43,12 +43,13 @@ public class Player2Agent extends Agent {
             if (step == 0) {
                 ACLMessage msg = new ACLMessage(ACLMessage.INFORM);
                 msg.setContent( "Play Othello" );
-                msg.addReceiver( new AID( "tac", AID.ISLOCALNAME) );
+                msg.addReceiver( new AID( "Player1", AID.ISLOCALNAME) );
                 System.out.println("Player1 -> Player2: "+ msg.getContent());
                 send(msg);
                 block(500);
                 // tunggu beberapa saat
                 msg= receive();
+                //System.out.println(msg.getContent());
                 if (msg!=null && msg.getContent().contains("Okay")) {
                     step = 1;
                     ticGui.activateButton();
