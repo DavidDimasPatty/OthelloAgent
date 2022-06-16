@@ -74,7 +74,7 @@ public class Player1Agent extends Agent
             
                 if ((msg != null) && (!msg.getContent().equals((String) lastMsg))){
                     lastMsg = msg.getContent();
-                    System.out.println(lastMsg);
+                    System.out.println("jalan: "+lastMsg);
                     int r = Integer.parseInt(String.valueOf(msg.getContent().charAt(0)))-1;
                     int c = Integer.parseInt(String.valueOf(msg.getContent().charAt(1)))-1;
                     tictactoe[r][c] = 0;

@@ -1314,21 +1314,18 @@ btnActionPerformed(BT55);
     }
     
     public void activateButton(){
-        for (int i=0; i<8; i++) {
-            for (int j=0; j<8;j++) {
-                if (myAgent.tictactoe[i][j] == -1) {
-                    getButton(i*3+j).setEnabled(true);
-                }
-            }
+        for (int i=0; i<64; i++) {
+                    getButton(i).setEnabled(true);
+              
         }
     }
     
     public void deactivateButton(){
-        for (int i=0; i<8; i++) {
-            for (int j=0; j<8;j++) {
-                getButton(i*3+j).setEnabled(false);
-            }
+         for (int i=0; i<64; i++) {
+                    getButton(i).setEnabled(false);
+              
         }
+
     }
     
     public javax.swing.JButton getButton(int btn){
