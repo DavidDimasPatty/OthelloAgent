@@ -12,7 +12,7 @@ import jade.lang.acl.ACLMessage;
 import java.awt.Color;
 public class Player2Agent extends Agent {
     private Player2AgentGUI ticGui; 
-    int [][] tictactoe = {{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}}; 
+    public int [][] tictactoe = new int [8][8];
     boolean turn = true; // turn
     int step = 0;
     int row, column;

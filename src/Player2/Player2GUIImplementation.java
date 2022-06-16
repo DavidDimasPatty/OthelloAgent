@@ -350,7 +350,9 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
             }
         });
 
-        BT44.setBackground(new java.awt.Color(255, 255, 255));
+        BT44.setBackground(java.awt.Color.red);
+        BT44.setForeground(new java.awt.Color(255, 255, 255));
+        BT44.setText("O");
         BT44.setEnabled(false);
         BT44.setName("Btn21"); // NOI18N
         BT44.addActionListener(new java.awt.event.ActionListener() {
@@ -359,7 +361,8 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
             }
         });
 
-        BT45.setBackground(new java.awt.Color(255, 255, 255));
+        BT45.setBackground(java.awt.Color.black);
+        BT45.setText("O");
         BT45.setEnabled(false);
         BT45.setName("Btn22"); // NOI18N
         BT45.addActionListener(new java.awt.event.ActionListener() {
@@ -424,7 +427,8 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
             }
         });
 
-        BT54.setBackground(new java.awt.Color(255, 255, 255));
+        BT54.setBackground(java.awt.Color.black);
+        BT54.setText("O");
         BT54.setEnabled(false);
         BT54.setName("Btn21"); // NOI18N
         BT54.addActionListener(new java.awt.event.ActionListener() {
@@ -433,7 +437,9 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
             }
         });
 
-        BT55.setBackground(new java.awt.Color(255, 255, 255));
+        BT55.setBackground(java.awt.Color.red);
+        BT55.setForeground(new java.awt.Color(255, 255, 255));
+        BT55.setText("O");
         BT55.setEnabled(false);
         BT55.setName("Btn22"); // NOI18N
         BT55.addActionListener(new java.awt.event.ActionListener() {

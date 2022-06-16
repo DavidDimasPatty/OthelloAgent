@@ -14,7 +14,7 @@ public class Player1Agent extends Agent
 {
     //comment
     private Player1AgentGUI tacGui; 
-    public int [][] tictactoe = {{-1,-1,-1},{-1,-1,-1},{-1,-1,-1}}; 
+    public int [][] tictactoe = new int [8][8]; 
     boolean turn = false; // turn
     int step = 0;
     int row, column;

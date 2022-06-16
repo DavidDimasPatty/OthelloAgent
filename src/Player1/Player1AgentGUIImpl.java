@@ -386,8 +386,8 @@ public class Player1AgentGUIImpl extends javax.swing.JFrame implements Player1Ag
             }
         });
 
-        BT45.setBackground(java.awt.Color.white);
-        BT45.setForeground(java.awt.Color.white);
+        BT45.setBackground(java.awt.Color.black);
+        BT45.setText("O");
         BT45.setEnabled(false);
         BT45.setName("B32"); // NOI18N
         BT45.setPreferredSize(new java.awt.Dimension(33, 33));
@@ -397,8 +397,9 @@ public class Player1AgentGUIImpl extends javax.swing.JFrame implements Player1Ag
             }
         });
 
-        BT44.setBackground(java.awt.Color.white);
+        BT44.setBackground(java.awt.Color.red);
         BT44.setForeground(java.awt.Color.white);
+        BT44.setText("O");
         BT44.setEnabled(false);
         BT44.setName("B31"); // NOI18N
         BT44.setPreferredSize(new java.awt.Dimension(33, 33));
@@ -474,8 +475,9 @@ public class Player1AgentGUIImpl extends javax.swing.JFrame implements Player1Ag
             }
         });
 
-        BT55.setBackground(java.awt.Color.white);
+        BT55.setBackground(java.awt.Color.red);
         BT55.setForeground(java.awt.Color.white);
+        BT55.setText("O");
         BT55.setEnabled(false);
         BT55.setName("B32"); // NOI18N
         BT55.setPreferredSize(new java.awt.Dimension(33, 33));
@@ -485,8 +487,8 @@ public class Player1AgentGUIImpl extends javax.swing.JFrame implements Player1Ag
             }
         });
 
-        BT54.setBackground(java.awt.Color.white);
-        BT54.setForeground(java.awt.Color.white);
+        BT54.setBackground(java.awt.Color.black);
+        BT54.setText("O");
         BT54.setEnabled(false);
         BT54.setName("B31"); // NOI18N
         BT54.setPreferredSize(new java.awt.Dimension(33, 33));
