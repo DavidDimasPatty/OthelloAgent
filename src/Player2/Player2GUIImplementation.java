@@ -1354,16 +1354,19 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
     }
     
     public void activateButton(){
-        for (int i=0; i<64; i++) {
-                    getButton(i).setEnabled(true);
-              
+        for (int i=0; i<88; i++) {
+                    if(getButton(i)!=null){
+                        getButton(i).setEnabled(true); 
+                    }
+                   
         }
     }
     
     public void deactivateButton(){
-        for (int i=0; i<64; i++) {
+        for (int i=0; i<88; i++) {
+            if(getButton(i)!=null){
                     getButton(i).setEnabled(false);
-              
+            }
         }
     }
 
@@ -1371,70 +1374,70 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
     public javax.swing.JButton getButton(int btn){
         javax.swing.JButton b = null;
         switch (btn) {
-            case 0: b = BT11; break;
-            case 1: b = BT12; break;    
-            case 2: b = BT13; break;
-            case 3: b = BT14; break;
-            case 4: b = BT15; break;    
-            case 5: b = BT16; break;
-            case 6: b = BT17; break;
-            case 7: b = BT18; break;
-            case 8: b = BT21; break;
-            case 9: b = BT22; break;    
-            case 10: b = BT23; break;
-            case 11: b = BT24; break;
-            case 12: b = BT25; break;    
-            case 13: b = BT26; break;
-            case 14: b = BT27; break;
-            case 15: b = BT28; break;
-            case 16: b = BT31; break;
-            case 17: b = BT32; break;    
-            case 18: b = BT33; break;
-            case 19: b = BT34; break;
-            case 20: b = BT35; break;    
-            case 21: b = BT36; break;
-            case 22: b = BT37; break;
-            case 23: b = BT38; break;
-            case 24: b = BT41; break;
-            case 25: b = BT42; break;    
-            case 26: b = BT43; break;
-            case 27: b = BT44; break;
-            case 28: b = BT45; break;    
-            case 29: b = BT46; break;
-            case 30: b = BT47; break;
-            case 31: b = BT48; break;
-            case 32: b = BT51; break;
-            case 33: b = BT52; break;    
-            case 34: b = BT53; break;
-            case 35: b = BT54; break;
-            case 36: b = BT55; break;    
-            case 37: b = BT56; break;
-            case 38: b = BT57; break;
-            case 39: b = BT58; break;
-            case 40: b = BT61; break;
-            case 41: b = BT62; break;    
-            case 42: b = BT63; break;
-            case 43: b = BT64; break;
-            case 44: b = BT65; break;    
-            case 45: b = BT66; break;
-            case 46: b = BT67; break;
-            case 47: b = BT68; break;
-            case 48: b = BT71; break;
-            case 49: b = BT72; break;    
-            case 50: b = BT73; break;
-            case 51: b = BT74; break;
-            case 52: b = BT75; break;    
-            case 53: b = BT76; break;
-            case 54: b = BT77; break;
-            case 55: b = BT78; break;
-            case 56: b = BT81; break;
-            case 57: b = BT82; break;    
-            case 58: b = BT83; break;
-            case 59: b = BT84; break;
-            case 60: b = BT85; break;    
-            case 61: b = BT86; break;
-            case 62: b = BT87; break;
-            case 63: b = BT88; break;
+            case 11: b = BT11; break;
+            case 12: b = BT12; break;    
+            case 13: b = BT13; break;
+            case 14: b = BT14; break;
+            case 15: b = BT15; break;    
+            case 16: b = BT16; break;
+            case 17: b = BT17; break;
+            case 18: b = BT18; break;
+            case 21: b = BT21; break;
+            case 22: b = BT22; break;    
+            case 23: b = BT23; break;
+            case 24: b = BT24; break;
+            case 25: b = BT25; break;    
+            case 26: b = BT26; break;
+            case 27: b = BT27; break;
+            case 28: b = BT28; break;
+            case 31: b = BT31; break;
+            case 32: b = BT32; break;    
+            case 33: b = BT33; break;
+            case 34: b = BT34; break;
+            case 35: b = BT35; break;    
+            case 36: b = BT36; break;
+            case 37: b = BT37; break;
+            case 38: b = BT38; break;
+            case 41: b = BT41; break;
+            case 42: b = BT42; break;    
+            case 43: b = BT43; break;
+            case 44: b = BT44; break;
+            case 45: b = BT45; break;    
+            case 46: b = BT46; break;
+            case 47: b = BT47; break;
+            case 48: b = BT48; break;
+            case 51: b = BT51; break;
+            case 52: b = BT52; break;    
+            case 53: b = BT53; break;
+            case 54: b = BT54; break;
+            case 55: b = BT55; break;    
+            case 56: b = BT56; break;
+            case 57: b = BT57; break;
+            case 58: b = BT58; break;
+            case 61: b = BT61; break;
+            case 62: b = BT62; break;    
+            case 63: b = BT63; break;
+            case 64: b = BT64; break;
+            case 65: b = BT65; break;    
+            case 66: b = BT66; break;
+            case 67: b = BT67; break;
+            case 68: b = BT68; break;
+            case 71: b = BT71; break;
+            case 72: b = BT72; break;    
+            case 73: b = BT73; break;
+            case 74: b = BT74; break;
+            case 75: b = BT75; break;    
+            case 76: b = BT76; break;
+            case 77: b = BT77; break;
+            case 78: b = BT78; break;
+            case 81: b = BT81; break;
+            case 82: b = BT82; break;    
+            case 83: b = BT83; break;
+            case 84: b = BT84; break;
+            case 85: b = BT85; break;    
+            case 86: b = BT86; break;
+            case 87: b = BT87; break;
+            case 88: b = BT88; break;
         }
         return b;
     }    

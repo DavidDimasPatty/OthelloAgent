@@ -71,11 +71,13 @@ public class Player2Agent extends Agent {
             if (step == 1 && !isTurn()) {
                 msg = receive();
                 if ((msg != null) && (!msg.getContent().equals((String) lastMsg))){
-                    int r = Integer.parseInt(String.valueOf(msg.getContent().charAt(0)))-1;
-                    int c = Integer.parseInt(String.valueOf(msg.getContent().charAt(1)))-1;
-                    tictactoe[r][c] = 0;
-                    javax.swing.JButton btn = ticGui.getButton(r*3+c);
-                    btn.setBackground(Color.green);
+                      int r = Integer.parseInt(String.valueOf(msg.getContent().charAt(0)));
+                    int c = Integer.parseInt(String.valueOf(msg.getContent().charAt(1)));
+                    tictactoe[c][r] = 1;
+                    String rc=c+""+r;
+                    int butCase=Integer.parseInt(rc);
+                    javax.swing.JButton btn = ticGui.getButton(butCase);
+                    btn.setBackground(Color.red);
                     ticGui.activateButton();
                     setTurn(true);
                 }

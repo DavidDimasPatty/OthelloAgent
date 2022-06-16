@@ -75,11 +75,14 @@ public class Player1Agent extends Agent
                 if ((msg != null) && (!msg.getContent().equals((String) lastMsg))){
                     lastMsg = msg.getContent();
                     System.out.println("jalan: "+lastMsg);
-                    int r = Integer.parseInt(String.valueOf(msg.getContent().charAt(0)))-1;
-                    int c = Integer.parseInt(String.valueOf(msg.getContent().charAt(1)))-1;
-                    tictactoe[r][c] = 0;
-                    javax.swing.JButton btn = tacGui.getButton(r*3+c);
-                    btn.setBackground(Color.blue);
+                    int r = Integer.parseInt(String.valueOf(msg.getContent().charAt(0)));
+                    int c = Integer.parseInt(String.valueOf(msg.getContent().charAt(1)));
+                    tictactoe[c][r] = -1;
+                    String rc=c+""+r;
+                     System.out.println("rc: "+rc);
+                    int butCase=Integer.parseInt(rc);
+                    javax.swing.JButton btn = tacGui.getButton(butCase);
+                    btn.setBackground(Color.red);
                     tacGui.activateButton();
                     setTurn(true);
                 }
