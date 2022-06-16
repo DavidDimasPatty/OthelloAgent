@@ -46,7 +46,6 @@ public class Player1Agent extends Agent
         public void action() {
             if (step == 0) {
                 msg = receive();
-                System.out.println(msg);
                 if (msg != null) {
                     lastMsg = msg.getContent();
                     msg = new ACLMessage(ACLMessage.INFORM);
@@ -75,6 +74,7 @@ public class Player1Agent extends Agent
             
                 if ((msg != null) && (!msg.getContent().equals((String) lastMsg))){
                     lastMsg = msg.getContent();
+                    System.out.println(lastMsg);
                     int r = Integer.parseInt(String.valueOf(msg.getContent().charAt(0)))-1;
                     int c = Integer.parseInt(String.valueOf(msg.getContent().charAt(1)))-1;
                     tictactoe[r][c] = 0;
@@ -97,14 +97,14 @@ public class Player1Agent extends Agent
     
     void updateBoard(String bt){
         setTurn(false);
-        row = Integer.parseInt(String.valueOf(bt.charAt(1)))-1;
-        column = Integer.parseInt(String.valueOf(bt.charAt(2)))-1;
+        row = Integer.parseInt(String.valueOf(bt.charAt(2)))-1;
+        column = Integer.parseInt(String.valueOf(bt.charAt(3)))-1;
         tictactoe[row][column] = 1;
         // kirim berita ke tic
         ACLMessage msg = new ACLMessage(ACLMessage.INFORM);
-	msg.setContent(""+bt.charAt(1)+bt.charAt(2));
-     	msg.addReceiver( new AID( "tic", AID.ISLOCALNAME) );
-        System.out.println("Tac -> Tic: " + msg.getContent());
+	msg.setContent(""+bt.charAt(2)+bt.charAt(3));
+     	msg.addReceiver( new AID( "Player2", AID.ISLOCALNAME) );
+        System.out.println("Player1 -> Player2: " + msg.getContent());
 	send(msg);
     }
     

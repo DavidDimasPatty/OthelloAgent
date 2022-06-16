@@ -110,7 +110,7 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
 
         BT12.setBackground(new java.awt.Color(255, 255, 255));
         BT12.setEnabled(false);
-        BT12.setName("BT12"); // NOI18N
+        BT12.setName("BT21"); // NOI18N
         BT12.setPreferredSize(new java.awt.Dimension(60, 60));
         BT12.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -120,7 +120,7 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
 
         BT13.setBackground(new java.awt.Color(255, 255, 255));
         BT13.setEnabled(false);
-        BT13.setName("BT13"); // NOI18N
+        BT13.setName("BT31"); // NOI18N
         BT13.setPreferredSize(new java.awt.Dimension(60, 60));
         BT13.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -130,7 +130,7 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
 
         BT14.setBackground(new java.awt.Color(255, 255, 255));
         BT14.setEnabled(false);
-        BT14.setName("BT14"); // NOI18N
+        BT14.setName("BT41"); // NOI18N
         BT14.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BT14ActionPerformed(evt);
@@ -139,7 +139,7 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
 
         BT15.setBackground(new java.awt.Color(255, 255, 255));
         BT15.setEnabled(false);
-        BT15.setName("BT15"); // NOI18N
+        BT15.setName("BT51"); // NOI18N
         BT15.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BT15ActionPerformed(evt);
@@ -148,7 +148,7 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
 
         BT16.setBackground(new java.awt.Color(255, 255, 255));
         BT16.setEnabled(false);
-        BT16.setName("BT16"); // NOI18N
+        BT16.setName("BT61"); // NOI18N
         BT16.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BT16ActionPerformed(evt);
@@ -157,7 +157,7 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
 
         BT17.setBackground(new java.awt.Color(255, 255, 255));
         BT17.setEnabled(false);
-        BT17.setName("BT17"); // NOI18N
+        BT17.setName("BT71"); // NOI18N
         BT17.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BT17ActionPerformed(evt);
@@ -166,7 +166,7 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
 
         BT18.setBackground(new java.awt.Color(255, 255, 255));
         BT18.setEnabled(false);
-        BT18.setName("BT18"); // NOI18N
+        BT18.setName("BT81"); // NOI18N
         BT18.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BT18ActionPerformed(evt);
@@ -175,7 +175,7 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
 
         BT21.setBackground(new java.awt.Color(255, 255, 255));
         BT21.setEnabled(false);
-        BT21.setName("BT21"); // NOI18N
+        BT21.setName("BT12"); // NOI18N
         BT21.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BT21ActionPerformed(evt);
@@ -184,7 +184,7 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
 
         BT22.setBackground(new java.awt.Color(255, 255, 255));
         BT22.setEnabled(false);
-        BT22.setName("Btn12"); // NOI18N
+        BT22.setName("BT22"); // NOI18N
         BT22.setPreferredSize(new java.awt.Dimension(60, 60));
         BT22.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -194,7 +194,7 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
 
         BT23.setBackground(new java.awt.Color(255, 255, 255));
         BT23.setEnabled(false);
-        BT23.setName("Btn13"); // NOI18N
+        BT23.setName("BT32"); // NOI18N
         BT23.setPreferredSize(new java.awt.Dimension(60, 60));
         BT23.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -204,7 +204,7 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
 
         BT24.setBackground(new java.awt.Color(255, 255, 255));
         BT24.setEnabled(false);
-        BT24.setName("Btn21"); // NOI18N
+        BT24.setName("BT42"); // NOI18N
         BT24.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BT24ActionPerformed(evt);
@@ -213,7 +213,7 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
 
         BT25.setBackground(new java.awt.Color(255, 255, 255));
         BT25.setEnabled(false);
-        BT25.setName("Btn22"); // NOI18N
+        BT25.setName("BT52"); // NOI18N
         BT25.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BT25ActionPerformed(evt);
@@ -222,7 +222,7 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
 
         BT26.setBackground(new java.awt.Color(255, 255, 255));
         BT26.setEnabled(false);
-        BT26.setName("Btn23"); // NOI18N
+        BT26.setName("BT62"); // NOI18N
         BT26.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BT26ActionPerformed(evt);
@@ -231,7 +231,7 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
 
         BT27.setBackground(new java.awt.Color(255, 255, 255));
         BT27.setEnabled(false);
-        BT27.setName("Btn31"); // NOI18N
+        BT27.setName("BT72"); // NOI18N
         BT27.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BT27ActionPerformed(evt);
@@ -240,7 +240,7 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
 
         BT28.setBackground(new java.awt.Color(255, 255, 255));
         BT28.setEnabled(false);
-        BT28.setName("Btn32"); // NOI18N
+        BT28.setName("BT82"); // NOI18N
         BT28.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BT28ActionPerformed(evt);
@@ -249,7 +249,7 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
 
         BT31.setBackground(new java.awt.Color(255, 255, 255));
         BT31.setEnabled(false);
-        BT31.setName("Btn33"); // NOI18N
+        BT31.setName("BT13"); // NOI18N
         BT31.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BT31ActionPerformed(evt);
@@ -258,7 +258,7 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
 
         BT32.setBackground(new java.awt.Color(255, 255, 255));
         BT32.setEnabled(false);
-        BT32.setName("Btn12"); // NOI18N
+        BT32.setName("BT23"); // NOI18N
         BT32.setPreferredSize(new java.awt.Dimension(60, 60));
         BT32.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -268,7 +268,7 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
 
         BT33.setBackground(new java.awt.Color(255, 255, 255));
         BT33.setEnabled(false);
-        BT33.setName("Btn13"); // NOI18N
+        BT33.setName("BT33"); // NOI18N
         BT33.setPreferredSize(new java.awt.Dimension(60, 60));
         BT33.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -278,7 +278,7 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
 
         BT34.setBackground(new java.awt.Color(255, 255, 255));
         BT34.setEnabled(false);
-        BT34.setName("Btn21"); // NOI18N
+        BT34.setName("BT43"); // NOI18N
         BT34.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BT34ActionPerformed(evt);
@@ -287,7 +287,7 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
 
         BT35.setBackground(new java.awt.Color(255, 255, 255));
         BT35.setEnabled(false);
-        BT35.setName("Btn22"); // NOI18N
+        BT35.setName("BT53"); // NOI18N
         BT35.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BT35ActionPerformed(evt);
@@ -296,7 +296,7 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
 
         BT36.setBackground(new java.awt.Color(255, 255, 255));
         BT36.setEnabled(false);
-        BT36.setName("Btn23"); // NOI18N
+        BT36.setName("BT63"); // NOI18N
         BT36.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BT36ActionPerformed(evt);
@@ -305,7 +305,7 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
 
         BT37.setBackground(new java.awt.Color(255, 255, 255));
         BT37.setEnabled(false);
-        BT37.setName("Btn31"); // NOI18N
+        BT37.setName("BT73"); // NOI18N
         BT37.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BT37ActionPerformed(evt);
@@ -314,7 +314,7 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
 
         BT38.setBackground(new java.awt.Color(255, 255, 255));
         BT38.setEnabled(false);
-        BT38.setName("Btn32"); // NOI18N
+        BT38.setName("BT83"); // NOI18N
         BT38.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BT38ActionPerformed(evt);
@@ -323,7 +323,7 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
 
         BT41.setBackground(new java.awt.Color(255, 255, 255));
         BT41.setEnabled(false);
-        BT41.setName("Btn33"); // NOI18N
+        BT41.setName("BT14"); // NOI18N
         BT41.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BT41ActionPerformed(evt);
@@ -332,7 +332,7 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
 
         BT42.setBackground(new java.awt.Color(255, 255, 255));
         BT42.setEnabled(false);
-        BT42.setName("Btn12"); // NOI18N
+        BT42.setName("BT24"); // NOI18N
         BT42.setPreferredSize(new java.awt.Dimension(60, 60));
         BT42.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -342,7 +342,7 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
 
         BT43.setBackground(new java.awt.Color(255, 255, 255));
         BT43.setEnabled(false);
-        BT43.setName("Btn13"); // NOI18N
+        BT43.setName("BT34"); // NOI18N
         BT43.setPreferredSize(new java.awt.Dimension(60, 60));
         BT43.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -354,7 +354,7 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
         BT44.setForeground(new java.awt.Color(255, 255, 255));
         BT44.setText("O");
         BT44.setEnabled(false);
-        BT44.setName("Btn21"); // NOI18N
+        BT44.setName("BT44"); // NOI18N
         BT44.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BT44ActionPerformed(evt);
@@ -364,7 +364,7 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
         BT45.setBackground(java.awt.Color.black);
         BT45.setText("O");
         BT45.setEnabled(false);
-        BT45.setName("Btn22"); // NOI18N
+        BT45.setName("BT54"); // NOI18N
         BT45.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BT45ActionPerformed(evt);
@@ -373,7 +373,7 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
 
         BT46.setBackground(new java.awt.Color(255, 255, 255));
         BT46.setEnabled(false);
-        BT46.setName("Btn23"); // NOI18N
+        BT46.setName("BT64"); // NOI18N
         BT46.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BT46ActionPerformed(evt);
@@ -382,7 +382,7 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
 
         BT47.setBackground(new java.awt.Color(255, 255, 255));
         BT47.setEnabled(false);
-        BT47.setName("Btn31"); // NOI18N
+        BT47.setName("BT74"); // NOI18N
         BT47.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BT47ActionPerformed(evt);
@@ -391,7 +391,7 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
 
         BT48.setBackground(new java.awt.Color(255, 255, 255));
         BT48.setEnabled(false);
-        BT48.setName("Btn32"); // NOI18N
+        BT48.setName("BT84"); // NOI18N
         BT48.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BT48ActionPerformed(evt);
@@ -400,7 +400,7 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
 
         BT51.setBackground(new java.awt.Color(255, 255, 255));
         BT51.setEnabled(false);
-        BT51.setName("Btn33"); // NOI18N
+        BT51.setName("BT15"); // NOI18N
         BT51.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BT51ActionPerformed(evt);
@@ -409,7 +409,7 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
 
         BT52.setBackground(new java.awt.Color(255, 255, 255));
         BT52.setEnabled(false);
-        BT52.setName("Btn12"); // NOI18N
+        BT52.setName("BT25"); // NOI18N
         BT52.setPreferredSize(new java.awt.Dimension(60, 60));
         BT52.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -419,7 +419,7 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
 
         BT53.setBackground(new java.awt.Color(255, 255, 255));
         BT53.setEnabled(false);
-        BT53.setName("Btn13"); // NOI18N
+        BT53.setName("BT35"); // NOI18N
         BT53.setPreferredSize(new java.awt.Dimension(60, 60));
         BT53.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -430,7 +430,7 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
         BT54.setBackground(java.awt.Color.black);
         BT54.setText("O");
         BT54.setEnabled(false);
-        BT54.setName("Btn21"); // NOI18N
+        BT54.setName("BT45"); // NOI18N
         BT54.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BT54ActionPerformed(evt);
@@ -441,7 +441,7 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
         BT55.setForeground(new java.awt.Color(255, 255, 255));
         BT55.setText("O");
         BT55.setEnabled(false);
-        BT55.setName("Btn22"); // NOI18N
+        BT55.setName("BT55"); // NOI18N
         BT55.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BT55ActionPerformed(evt);
@@ -449,8 +449,9 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
         });
 
         BT56.setBackground(new java.awt.Color(255, 255, 255));
+        BT56.setToolTipText("");
         BT56.setEnabled(false);
-        BT56.setName("Btn23"); // NOI18N
+        BT56.setName("BT65"); // NOI18N
         BT56.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BT56ActionPerformed(evt);
@@ -459,7 +460,7 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
 
         BT57.setBackground(new java.awt.Color(255, 255, 255));
         BT57.setEnabled(false);
-        BT57.setName("Btn31"); // NOI18N
+        BT57.setName("BT75"); // NOI18N
         BT57.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BT57ActionPerformed(evt);
@@ -468,7 +469,7 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
 
         BT58.setBackground(new java.awt.Color(255, 255, 255));
         BT58.setEnabled(false);
-        BT58.setName("Btn32"); // NOI18N
+        BT58.setName("BT85"); // NOI18N
         BT58.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BT58ActionPerformed(evt);
@@ -477,7 +478,7 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
 
         BT61.setBackground(new java.awt.Color(255, 255, 255));
         BT61.setEnabled(false);
-        BT61.setName("Btn33"); // NOI18N
+        BT61.setName("BT16"); // NOI18N
         BT61.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BT61ActionPerformed(evt);
@@ -486,7 +487,7 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
 
         BT62.setBackground(new java.awt.Color(255, 255, 255));
         BT62.setEnabled(false);
-        BT62.setName("Btn12"); // NOI18N
+        BT62.setName("BT26"); // NOI18N
         BT62.setPreferredSize(new java.awt.Dimension(60, 60));
         BT62.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -496,7 +497,7 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
 
         BT63.setBackground(new java.awt.Color(255, 255, 255));
         BT63.setEnabled(false);
-        BT63.setName("Btn13"); // NOI18N
+        BT63.setName("BT36"); // NOI18N
         BT63.setPreferredSize(new java.awt.Dimension(60, 60));
         BT63.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -506,7 +507,7 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
 
         BT64.setBackground(new java.awt.Color(255, 255, 255));
         BT64.setEnabled(false);
-        BT64.setName("Btn21"); // NOI18N
+        BT64.setName("BT46"); // NOI18N
         BT64.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BT64ActionPerformed(evt);
@@ -515,7 +516,7 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
 
         BT65.setBackground(new java.awt.Color(255, 255, 255));
         BT65.setEnabled(false);
-        BT65.setName("Btn22"); // NOI18N
+        BT65.setName("BT56"); // NOI18N
         BT65.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BT65ActionPerformed(evt);
@@ -524,7 +525,7 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
 
         BT66.setBackground(new java.awt.Color(255, 255, 255));
         BT66.setEnabled(false);
-        BT66.setName("Btn23"); // NOI18N
+        BT66.setName("BT66"); // NOI18N
         BT66.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BT66ActionPerformed(evt);
@@ -533,7 +534,7 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
 
         BT67.setBackground(new java.awt.Color(255, 255, 255));
         BT67.setEnabled(false);
-        BT67.setName("Btn31"); // NOI18N
+        BT67.setName("BT76"); // NOI18N
         BT67.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BT67ActionPerformed(evt);
@@ -542,7 +543,7 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
 
         BT68.setBackground(new java.awt.Color(255, 255, 255));
         BT68.setEnabled(false);
-        BT68.setName("Btn32"); // NOI18N
+        BT68.setName("BT86"); // NOI18N
         BT68.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BT68ActionPerformed(evt);
@@ -551,7 +552,7 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
 
         BT71.setBackground(new java.awt.Color(255, 255, 255));
         BT71.setEnabled(false);
-        BT71.setName("Btn33"); // NOI18N
+        BT71.setName("BT17"); // NOI18N
         BT71.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BT71ActionPerformed(evt);
@@ -560,7 +561,7 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
 
         BT72.setBackground(new java.awt.Color(255, 255, 255));
         BT72.setEnabled(false);
-        BT72.setName("Btn12"); // NOI18N
+        BT72.setName("BT27"); // NOI18N
         BT72.setPreferredSize(new java.awt.Dimension(60, 60));
         BT72.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -570,7 +571,7 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
 
         BT73.setBackground(new java.awt.Color(255, 255, 255));
         BT73.setEnabled(false);
-        BT73.setName("Btn13"); // NOI18N
+        BT73.setName("BT37"); // NOI18N
         BT73.setPreferredSize(new java.awt.Dimension(60, 60));
         BT73.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -580,7 +581,7 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
 
         BT74.setBackground(new java.awt.Color(255, 255, 255));
         BT74.setEnabled(false);
-        BT74.setName("Btn21"); // NOI18N
+        BT74.setName("BT47"); // NOI18N
         BT74.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BT74ActionPerformed(evt);
@@ -589,7 +590,7 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
 
         BT75.setBackground(new java.awt.Color(255, 255, 255));
         BT75.setEnabled(false);
-        BT75.setName("Btn22"); // NOI18N
+        BT75.setName("BT57"); // NOI18N
         BT75.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BT75ActionPerformed(evt);
@@ -598,7 +599,7 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
 
         BT76.setBackground(new java.awt.Color(255, 255, 255));
         BT76.setEnabled(false);
-        BT76.setName("Btn23"); // NOI18N
+        BT76.setName("BT67"); // NOI18N
         BT76.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BT76ActionPerformed(evt);
@@ -607,7 +608,7 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
 
         BT77.setBackground(new java.awt.Color(255, 255, 255));
         BT77.setEnabled(false);
-        BT77.setName("Btn31"); // NOI18N
+        BT77.setName("BT77"); // NOI18N
         BT77.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BT77ActionPerformed(evt);
@@ -616,7 +617,7 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
 
         BT78.setBackground(new java.awt.Color(255, 255, 255));
         BT78.setEnabled(false);
-        BT78.setName("Btn32"); // NOI18N
+        BT78.setName("BT78"); // NOI18N
         BT78.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BT78ActionPerformed(evt);
@@ -625,7 +626,7 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
 
         BT81.setBackground(new java.awt.Color(255, 255, 255));
         BT81.setEnabled(false);
-        BT81.setName("Btn33"); // NOI18N
+        BT81.setName("BT18"); // NOI18N
         BT81.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BT81ActionPerformed(evt);
@@ -634,7 +635,7 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
 
         BT82.setBackground(new java.awt.Color(255, 255, 255));
         BT82.setEnabled(false);
-        BT82.setName("Btn12"); // NOI18N
+        BT82.setName("BT28"); // NOI18N
         BT82.setPreferredSize(new java.awt.Dimension(60, 60));
         BT82.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -644,7 +645,7 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
 
         BT83.setBackground(new java.awt.Color(255, 255, 255));
         BT83.setEnabled(false);
-        BT83.setName("Btn13"); // NOI18N
+        BT83.setName("BT38"); // NOI18N
         BT83.setPreferredSize(new java.awt.Dimension(60, 60));
         BT83.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -654,7 +655,7 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
 
         BT84.setBackground(new java.awt.Color(255, 255, 255));
         BT84.setEnabled(false);
-        BT84.setName("Btn21"); // NOI18N
+        BT84.setName("BT48"); // NOI18N
         BT84.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BT84ActionPerformed(evt);
@@ -663,7 +664,7 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
 
         BT85.setBackground(new java.awt.Color(255, 255, 255));
         BT85.setEnabled(false);
-        BT85.setName("Btn22"); // NOI18N
+        BT85.setName("BT58"); // NOI18N
         BT85.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BT85ActionPerformed(evt);
@@ -672,7 +673,7 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
 
         BT86.setBackground(new java.awt.Color(255, 255, 255));
         BT86.setEnabled(false);
-        BT86.setName("Btn23"); // NOI18N
+        BT86.setName("BT68"); // NOI18N
         BT86.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BT86ActionPerformed(evt);
@@ -681,7 +682,7 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
 
         BT87.setBackground(new java.awt.Color(255, 255, 255));
         BT87.setEnabled(false);
-        BT87.setName("Btn31"); // NOI18N
+        BT87.setName("BT78"); // NOI18N
         BT87.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BT87ActionPerformed(evt);
@@ -690,7 +691,7 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
 
         BT88.setBackground(new java.awt.Color(255, 255, 255));
         BT88.setEnabled(false);
-        BT88.setName("Btn32"); // NOI18N
+        BT88.setName("BT88"); // NOI18N
         BT88.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BT88ActionPerformed(evt);
@@ -950,14 +951,73 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
         );
 
         BT11.getAccessibleContext().setAccessibleName("Btn11");
-        BT12.getAccessibleContext().setAccessibleName("Btn12");
-        BT13.getAccessibleContext().setAccessibleName("Btn13");
-        BT14.getAccessibleContext().setAccessibleName("Btn21");
-        BT15.getAccessibleContext().setAccessibleName("Btn22");
-        BT16.getAccessibleContext().setAccessibleName("Btn23");
-        BT17.getAccessibleContext().setAccessibleName("Btn31");
-        BT18.getAccessibleContext().setAccessibleName("Btn32");
-        BT21.getAccessibleContext().setAccessibleName("Btn33");
+        BT12.getAccessibleContext().setAccessibleName("Btn21");
+        BT13.getAccessibleContext().setAccessibleName("Btn31");
+        BT14.getAccessibleContext().setAccessibleName("Btn41");
+        BT15.getAccessibleContext().setAccessibleName("Btn51");
+        BT15.getAccessibleContext().setAccessibleDescription("");
+        BT16.getAccessibleContext().setAccessibleName("Btn61");
+        BT17.getAccessibleContext().setAccessibleName("Btn71");
+        BT18.getAccessibleContext().setAccessibleName("Btn81");
+        BT18.getAccessibleContext().setAccessibleDescription("");
+        BT21.getAccessibleContext().setAccessibleName("Btn12");
+        BT22.getAccessibleContext().setAccessibleName("Btn22");
+        BT23.getAccessibleContext().setAccessibleName("Btn32");
+        BT24.getAccessibleContext().setAccessibleName("Btn42");
+        BT25.getAccessibleContext().setAccessibleName("Btn52");
+        BT26.getAccessibleContext().setAccessibleName("Btn62");
+        BT27.getAccessibleContext().setAccessibleName("Btn72");
+        BT28.getAccessibleContext().setAccessibleName("Btn82");
+        BT31.getAccessibleContext().setAccessibleName("Btn13");
+        BT32.getAccessibleContext().setAccessibleName("Btn23");
+        BT33.getAccessibleContext().setAccessibleName("Btn33");
+        BT33.getAccessibleContext().setAccessibleDescription("");
+        BT34.getAccessibleContext().setAccessibleName("Btn43");
+        BT35.getAccessibleContext().setAccessibleName("Btn53");
+        BT36.getAccessibleContext().setAccessibleName("Btn63");
+        BT37.getAccessibleContext().setAccessibleName("Btn73");
+        BT38.getAccessibleContext().setAccessibleName("Btn83");
+        BT41.getAccessibleContext().setAccessibleName("Btn14");
+        BT42.getAccessibleContext().setAccessibleName("Btn24");
+        BT43.getAccessibleContext().setAccessibleName("Btn34");
+        BT44.getAccessibleContext().setAccessibleName("Btn44");
+        BT45.getAccessibleContext().setAccessibleName("Btn54");
+        BT46.getAccessibleContext().setAccessibleName("Btn64");
+        BT47.getAccessibleContext().setAccessibleName("Btn74");
+        BT48.getAccessibleContext().setAccessibleName("Btn84");
+        BT51.getAccessibleContext().setAccessibleName("Btn15");
+        BT52.getAccessibleContext().setAccessibleName("Btn25");
+        BT53.getAccessibleContext().setAccessibleName("Btn35");
+        BT54.getAccessibleContext().setAccessibleName("Btn45");
+        BT55.getAccessibleContext().setAccessibleName("Btn55");
+        BT56.getAccessibleContext().setAccessibleName("Btn65");
+        BT57.getAccessibleContext().setAccessibleName("Btn75");
+        BT58.getAccessibleContext().setAccessibleName("Btn85");
+        BT61.getAccessibleContext().setAccessibleName("Btn16");
+        BT61.getAccessibleContext().setAccessibleDescription("");
+        BT62.getAccessibleContext().setAccessibleName("Btn26");
+        BT63.getAccessibleContext().setAccessibleName("Btn36");
+        BT64.getAccessibleContext().setAccessibleName("Btn46");
+        BT65.getAccessibleContext().setAccessibleName("Btn56");
+        BT66.getAccessibleContext().setAccessibleName("Btn66");
+        BT67.getAccessibleContext().setAccessibleName("Btn76");
+        BT68.getAccessibleContext().setAccessibleName("Btn86");
+        BT71.getAccessibleContext().setAccessibleName("Btn17");
+        BT72.getAccessibleContext().setAccessibleName("Btn27");
+        BT73.getAccessibleContext().setAccessibleName("Btn37");
+        BT74.getAccessibleContext().setAccessibleName("Btn47");
+        BT75.getAccessibleContext().setAccessibleName("Btn57");
+        BT76.getAccessibleContext().setAccessibleName("Btn67");
+        BT77.getAccessibleContext().setAccessibleName("Btn77");
+        BT78.getAccessibleContext().setAccessibleName("Btn87");
+        BT81.getAccessibleContext().setAccessibleName("Btn18");
+        BT82.getAccessibleContext().setAccessibleName("Btn28");
+        BT83.getAccessibleContext().setAccessibleName("Btn38");
+        BT84.getAccessibleContext().setAccessibleName("Btn48");
+        BT85.getAccessibleContext().setAccessibleName("Btn58");
+        BT86.getAccessibleContext().setAccessibleName("Btn68");
+        BT87.getAccessibleContext().setAccessibleName("Btn78");
+        BT88.getAccessibleContext().setAccessibleName("Btn88");
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -1285,28 +1345,25 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
     
     void BtnActionPerformed(javax.swing.JButton btn) {
         if (btn.isEnabled() && myAgent.isTurn()) {
-            btn.setBackground(Color.white);
+            btn.setBackground(Color.black);
             deactivateButton();
+            System.out.println(btn.getName());
             myAgent.updateBoard(btn.getName());
             notifyUser(btn.getName()+" is pressed.");
         }         
     }
     
     public void activateButton(){
-        for (int i=0; i<3; i++) {
-            for (int j=0; j<3;j++) {
-                if (myAgent.tictactoe[i][j] == -1) {
-                    getButton(i*3+j).setEnabled(true);
-                }
-            }
+        for (int i=0; i<64; i++) {
+                    getButton(i).setEnabled(true);
+              
         }
     }
     
     public void deactivateButton(){
-        for (int i=0; i<3; i++) {
-            for (int j=0; j<3;j++) {
-                getButton(i*3+j).setEnabled(false);
-            }
+        for (int i=0; i<64; i++) {
+                    getButton(i).setEnabled(false);
+              
         }
     }
 

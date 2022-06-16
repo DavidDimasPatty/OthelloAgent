@@ -125,7 +125,7 @@ public class Player1AgentGUIImpl extends javax.swing.JFrame implements Player1Ag
         BT12.setBackground(java.awt.Color.white);
         BT12.setForeground(java.awt.Color.white);
         BT12.setEnabled(false);
-        BT12.setName("BT12"); // NOI18N
+        BT12.setName("BT21"); // NOI18N
         BT12.setPreferredSize(new java.awt.Dimension(33, 33));
         BT12.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -136,7 +136,7 @@ public class Player1AgentGUIImpl extends javax.swing.JFrame implements Player1Ag
         BT13.setBackground(java.awt.Color.white);
         BT13.setForeground(java.awt.Color.white);
         BT13.setEnabled(false);
-        BT13.setName("BT13"); // NOI18N
+        BT13.setName("BT31"); // NOI18N
         BT13.setPreferredSize(new java.awt.Dimension(33, 33));
         BT13.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -147,7 +147,7 @@ public class Player1AgentGUIImpl extends javax.swing.JFrame implements Player1Ag
         BT16.setBackground(java.awt.Color.white);
         BT16.setForeground(java.awt.Color.white);
         BT16.setEnabled(false);
-        BT16.setName("B33"); // NOI18N
+        BT16.setName("BT61"); // NOI18N
         BT16.setPreferredSize(new java.awt.Dimension(33, 33));
         BT16.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -158,7 +158,7 @@ public class Player1AgentGUIImpl extends javax.swing.JFrame implements Player1Ag
         BT15.setBackground(java.awt.Color.white);
         BT15.setForeground(java.awt.Color.white);
         BT15.setEnabled(false);
-        BT15.setName("B32"); // NOI18N
+        BT15.setName("BT51"); // NOI18N
         BT15.setPreferredSize(new java.awt.Dimension(33, 33));
         BT15.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -169,7 +169,7 @@ public class Player1AgentGUIImpl extends javax.swing.JFrame implements Player1Ag
         BT14.setBackground(java.awt.Color.white);
         BT14.setForeground(java.awt.Color.white);
         BT14.setEnabled(false);
-        BT14.setName("B31"); // NOI18N
+        BT14.setName("BT41"); // NOI18N
         BT14.setPreferredSize(new java.awt.Dimension(33, 33));
         BT14.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -180,7 +180,7 @@ public class Player1AgentGUIImpl extends javax.swing.JFrame implements Player1Ag
         BT18.setBackground(java.awt.Color.white);
         BT18.setForeground(java.awt.Color.white);
         BT18.setEnabled(false);
-        BT18.setName("B32"); // NOI18N
+        BT18.setName("BT81"); // NOI18N
         BT18.setPreferredSize(new java.awt.Dimension(33, 33));
         BT18.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -191,7 +191,7 @@ public class Player1AgentGUIImpl extends javax.swing.JFrame implements Player1Ag
         BT17.setBackground(java.awt.Color.white);
         BT17.setForeground(java.awt.Color.white);
         BT17.setEnabled(false);
-        BT17.setName("B31"); // NOI18N
+        BT17.setName("BT71"); // NOI18N
         BT17.setPreferredSize(new java.awt.Dimension(33, 33));
         BT17.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -202,7 +202,7 @@ public class Player1AgentGUIImpl extends javax.swing.JFrame implements Player1Ag
         BT26.setBackground(java.awt.Color.white);
         BT26.setForeground(java.awt.Color.white);
         BT26.setEnabled(false);
-        BT26.setName("B33"); // NOI18N
+        BT26.setName("BT62"); // NOI18N
         BT26.setPreferredSize(new java.awt.Dimension(33, 33));
         BT26.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -213,7 +213,7 @@ public class Player1AgentGUIImpl extends javax.swing.JFrame implements Player1Ag
         BT25.setBackground(java.awt.Color.white);
         BT25.setForeground(java.awt.Color.white);
         BT25.setEnabled(false);
-        BT25.setName("B32"); // NOI18N
+        BT25.setName("BT52"); // NOI18N
         BT25.setPreferredSize(new java.awt.Dimension(33, 33));
         BT25.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -224,7 +224,7 @@ public class Player1AgentGUIImpl extends javax.swing.JFrame implements Player1Ag
         BT24.setBackground(java.awt.Color.white);
         BT24.setForeground(java.awt.Color.white);
         BT24.setEnabled(false);
-        BT24.setName("B31"); // NOI18N
+        BT24.setName("BT42"); // NOI18N
         BT24.setPreferredSize(new java.awt.Dimension(33, 33));
         BT24.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -235,7 +235,7 @@ public class Player1AgentGUIImpl extends javax.swing.JFrame implements Player1Ag
         BT28.setBackground(java.awt.Color.white);
         BT28.setForeground(java.awt.Color.white);
         BT28.setEnabled(false);
-        BT28.setName("B32"); // NOI18N
+        BT28.setName("BT82"); // NOI18N
         BT28.setPreferredSize(new java.awt.Dimension(33, 33));
         BT28.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -246,7 +246,7 @@ public class Player1AgentGUIImpl extends javax.swing.JFrame implements Player1Ag
         BT21.setBackground(new java.awt.Color(255, 255, 255));
         BT21.setForeground(new java.awt.Color(255, 255, 255));
         BT21.setEnabled(false);
-        BT21.setName("B11"); // NOI18N
+        BT21.setName("BT21"); // NOI18N
         BT21.setPreferredSize(new java.awt.Dimension(33, 33));
         BT21.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -257,7 +257,7 @@ public class Player1AgentGUIImpl extends javax.swing.JFrame implements Player1Ag
         BT22.setBackground(java.awt.Color.white);
         BT22.setForeground(java.awt.Color.white);
         BT22.setEnabled(false);
-        BT22.setName("B12"); // NOI18N
+        BT22.setName("BT22"); // NOI18N
         BT22.setPreferredSize(new java.awt.Dimension(33, 33));
         BT22.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -268,7 +268,7 @@ public class Player1AgentGUIImpl extends javax.swing.JFrame implements Player1Ag
         BT23.setBackground(java.awt.Color.white);
         BT23.setForeground(java.awt.Color.white);
         BT23.setEnabled(false);
-        BT23.setName("B13"); // NOI18N
+        BT23.setName("BT32"); // NOI18N
         BT23.setPreferredSize(new java.awt.Dimension(33, 33));
         BT23.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -279,7 +279,7 @@ public class Player1AgentGUIImpl extends javax.swing.JFrame implements Player1Ag
         BT27.setBackground(java.awt.Color.white);
         BT27.setForeground(java.awt.Color.white);
         BT27.setEnabled(false);
-        BT27.setName("B31"); // NOI18N
+        BT27.setName("BT72"); // NOI18N
         BT27.setPreferredSize(new java.awt.Dimension(33, 33));
         BT27.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -290,7 +290,7 @@ public class Player1AgentGUIImpl extends javax.swing.JFrame implements Player1Ag
         BT36.setBackground(java.awt.Color.white);
         BT36.setForeground(java.awt.Color.white);
         BT36.setEnabled(false);
-        BT36.setName("B33"); // NOI18N
+        BT36.setName("BT63"); // NOI18N
         BT36.setPreferredSize(new java.awt.Dimension(33, 33));
         BT36.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -301,7 +301,7 @@ public class Player1AgentGUIImpl extends javax.swing.JFrame implements Player1Ag
         BT35.setBackground(java.awt.Color.white);
         BT35.setForeground(java.awt.Color.white);
         BT35.setEnabled(false);
-        BT35.setName("B32"); // NOI18N
+        BT35.setName("BT53"); // NOI18N
         BT35.setPreferredSize(new java.awt.Dimension(33, 33));
         BT35.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -312,7 +312,7 @@ public class Player1AgentGUIImpl extends javax.swing.JFrame implements Player1Ag
         BT34.setBackground(java.awt.Color.white);
         BT34.setForeground(java.awt.Color.white);
         BT34.setEnabled(false);
-        BT34.setName("B31"); // NOI18N
+        BT34.setName("BT43"); // NOI18N
         BT34.setPreferredSize(new java.awt.Dimension(33, 33));
         BT34.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -323,7 +323,7 @@ public class Player1AgentGUIImpl extends javax.swing.JFrame implements Player1Ag
         BT38.setBackground(java.awt.Color.white);
         BT38.setForeground(java.awt.Color.white);
         BT38.setEnabled(false);
-        BT38.setName("B32"); // NOI18N
+        BT38.setName("BT83"); // NOI18N
         BT38.setPreferredSize(new java.awt.Dimension(33, 33));
         BT38.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -334,7 +334,7 @@ public class Player1AgentGUIImpl extends javax.swing.JFrame implements Player1Ag
         BT31.setBackground(new java.awt.Color(255, 255, 255));
         BT31.setForeground(new java.awt.Color(255, 255, 255));
         BT31.setEnabled(false);
-        BT31.setName("B11"); // NOI18N
+        BT31.setName("BT13"); // NOI18N
         BT31.setPreferredSize(new java.awt.Dimension(33, 33));
         BT31.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -345,7 +345,7 @@ public class Player1AgentGUIImpl extends javax.swing.JFrame implements Player1Ag
         BT32.setBackground(java.awt.Color.white);
         BT32.setForeground(java.awt.Color.white);
         BT32.setEnabled(false);
-        BT32.setName("B12"); // NOI18N
+        BT32.setName("BT23"); // NOI18N
         BT32.setPreferredSize(new java.awt.Dimension(33, 33));
         BT32.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -356,7 +356,7 @@ public class Player1AgentGUIImpl extends javax.swing.JFrame implements Player1Ag
         BT33.setBackground(java.awt.Color.white);
         BT33.setForeground(java.awt.Color.white);
         BT33.setEnabled(false);
-        BT33.setName("B13"); // NOI18N
+        BT33.setName("BT33"); // NOI18N
         BT33.setPreferredSize(new java.awt.Dimension(33, 33));
         BT33.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -367,7 +367,7 @@ public class Player1AgentGUIImpl extends javax.swing.JFrame implements Player1Ag
         BT37.setBackground(java.awt.Color.white);
         BT37.setForeground(java.awt.Color.white);
         BT37.setEnabled(false);
-        BT37.setName("B31"); // NOI18N
+        BT37.setName("BT73"); // NOI18N
         BT37.setPreferredSize(new java.awt.Dimension(33, 33));
         BT37.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -378,7 +378,7 @@ public class Player1AgentGUIImpl extends javax.swing.JFrame implements Player1Ag
         BT46.setBackground(java.awt.Color.white);
         BT46.setForeground(java.awt.Color.white);
         BT46.setEnabled(false);
-        BT46.setName("B33"); // NOI18N
+        BT46.setName("BT64"); // NOI18N
         BT46.setPreferredSize(new java.awt.Dimension(33, 33));
         BT46.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -389,7 +389,7 @@ public class Player1AgentGUIImpl extends javax.swing.JFrame implements Player1Ag
         BT45.setBackground(java.awt.Color.black);
         BT45.setText("O");
         BT45.setEnabled(false);
-        BT45.setName("B32"); // NOI18N
+        BT45.setName("BT54"); // NOI18N
         BT45.setPreferredSize(new java.awt.Dimension(33, 33));
         BT45.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -401,7 +401,7 @@ public class Player1AgentGUIImpl extends javax.swing.JFrame implements Player1Ag
         BT44.setForeground(java.awt.Color.white);
         BT44.setText("O");
         BT44.setEnabled(false);
-        BT44.setName("B31"); // NOI18N
+        BT44.setName("BT44"); // NOI18N
         BT44.setPreferredSize(new java.awt.Dimension(33, 33));
         BT44.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -412,7 +412,7 @@ public class Player1AgentGUIImpl extends javax.swing.JFrame implements Player1Ag
         BT48.setBackground(java.awt.Color.white);
         BT48.setForeground(java.awt.Color.white);
         BT48.setEnabled(false);
-        BT48.setName("B32"); // NOI18N
+        BT48.setName("BT84"); // NOI18N
         BT48.setPreferredSize(new java.awt.Dimension(33, 33));
         BT48.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -423,7 +423,7 @@ public class Player1AgentGUIImpl extends javax.swing.JFrame implements Player1Ag
         BT41.setBackground(new java.awt.Color(255, 255, 255));
         BT41.setForeground(new java.awt.Color(255, 255, 255));
         BT41.setEnabled(false);
-        BT41.setName("B11"); // NOI18N
+        BT41.setName("BT14"); // NOI18N
         BT41.setPreferredSize(new java.awt.Dimension(33, 33));
         BT41.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -434,7 +434,7 @@ public class Player1AgentGUIImpl extends javax.swing.JFrame implements Player1Ag
         BT42.setBackground(java.awt.Color.white);
         BT42.setForeground(java.awt.Color.white);
         BT42.setEnabled(false);
-        BT42.setName("B12"); // NOI18N
+        BT42.setName("BT24"); // NOI18N
         BT42.setPreferredSize(new java.awt.Dimension(33, 33));
         BT42.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -445,7 +445,7 @@ public class Player1AgentGUIImpl extends javax.swing.JFrame implements Player1Ag
         BT43.setBackground(java.awt.Color.white);
         BT43.setForeground(java.awt.Color.white);
         BT43.setEnabled(false);
-        BT43.setName("B13"); // NOI18N
+        BT43.setName("BT34"); // NOI18N
         BT43.setPreferredSize(new java.awt.Dimension(33, 33));
         BT43.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -456,7 +456,7 @@ public class Player1AgentGUIImpl extends javax.swing.JFrame implements Player1Ag
         BT47.setBackground(java.awt.Color.white);
         BT47.setForeground(java.awt.Color.white);
         BT47.setEnabled(false);
-        BT47.setName("B31"); // NOI18N
+        BT47.setName("BT74"); // NOI18N
         BT47.setPreferredSize(new java.awt.Dimension(33, 33));
         BT47.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -467,7 +467,7 @@ public class Player1AgentGUIImpl extends javax.swing.JFrame implements Player1Ag
         BT56.setBackground(java.awt.Color.white);
         BT56.setForeground(java.awt.Color.white);
         BT56.setEnabled(false);
-        BT56.setName("B33"); // NOI18N
+        BT56.setName("BT65"); // NOI18N
         BT56.setPreferredSize(new java.awt.Dimension(33, 33));
         BT56.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -479,7 +479,7 @@ public class Player1AgentGUIImpl extends javax.swing.JFrame implements Player1Ag
         BT55.setForeground(java.awt.Color.white);
         BT55.setText("O");
         BT55.setEnabled(false);
-        BT55.setName("B32"); // NOI18N
+        BT55.setName("BT55"); // NOI18N
         BT55.setPreferredSize(new java.awt.Dimension(33, 33));
         BT55.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -490,7 +490,7 @@ public class Player1AgentGUIImpl extends javax.swing.JFrame implements Player1Ag
         BT54.setBackground(java.awt.Color.black);
         BT54.setText("O");
         BT54.setEnabled(false);
-        BT54.setName("B31"); // NOI18N
+        BT54.setName("BT45"); // NOI18N
         BT54.setPreferredSize(new java.awt.Dimension(33, 33));
         BT54.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -501,7 +501,7 @@ public class Player1AgentGUIImpl extends javax.swing.JFrame implements Player1Ag
         BT58.setBackground(java.awt.Color.white);
         BT58.setForeground(java.awt.Color.white);
         BT58.setEnabled(false);
-        BT58.setName("B32"); // NOI18N
+        BT58.setName("BT85"); // NOI18N
         BT58.setPreferredSize(new java.awt.Dimension(33, 33));
         BT58.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -512,7 +512,7 @@ public class Player1AgentGUIImpl extends javax.swing.JFrame implements Player1Ag
         BT51.setBackground(new java.awt.Color(255, 255, 255));
         BT51.setForeground(new java.awt.Color(255, 255, 255));
         BT51.setEnabled(false);
-        BT51.setName("B11"); // NOI18N
+        BT51.setName("BT15"); // NOI18N
         BT51.setPreferredSize(new java.awt.Dimension(33, 33));
         BT51.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -523,7 +523,7 @@ public class Player1AgentGUIImpl extends javax.swing.JFrame implements Player1Ag
         BT52.setBackground(java.awt.Color.white);
         BT52.setForeground(java.awt.Color.white);
         BT52.setEnabled(false);
-        BT52.setName("B12"); // NOI18N
+        BT52.setName("BT25"); // NOI18N
         BT52.setPreferredSize(new java.awt.Dimension(33, 33));
         BT52.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -534,7 +534,7 @@ public class Player1AgentGUIImpl extends javax.swing.JFrame implements Player1Ag
         BT53.setBackground(java.awt.Color.white);
         BT53.setForeground(java.awt.Color.white);
         BT53.setEnabled(false);
-        BT53.setName("B13"); // NOI18N
+        BT53.setName("BT35"); // NOI18N
         BT53.setPreferredSize(new java.awt.Dimension(33, 33));
         BT53.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -545,7 +545,7 @@ public class Player1AgentGUIImpl extends javax.swing.JFrame implements Player1Ag
         BT57.setBackground(java.awt.Color.white);
         BT57.setForeground(java.awt.Color.white);
         BT57.setEnabled(false);
-        BT57.setName("B31"); // NOI18N
+        BT57.setName("BT75"); // NOI18N
         BT57.setPreferredSize(new java.awt.Dimension(33, 33));
         BT57.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -556,7 +556,7 @@ public class Player1AgentGUIImpl extends javax.swing.JFrame implements Player1Ag
         BT66.setBackground(java.awt.Color.white);
         BT66.setForeground(java.awt.Color.white);
         BT66.setEnabled(false);
-        BT66.setName("B33"); // NOI18N
+        BT66.setName("BT66"); // NOI18N
         BT66.setPreferredSize(new java.awt.Dimension(33, 33));
         BT66.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -567,7 +567,7 @@ public class Player1AgentGUIImpl extends javax.swing.JFrame implements Player1Ag
         BT65.setBackground(java.awt.Color.white);
         BT65.setForeground(java.awt.Color.white);
         BT65.setEnabled(false);
-        BT65.setName("B32"); // NOI18N
+        BT65.setName("BT56"); // NOI18N
         BT65.setPreferredSize(new java.awt.Dimension(33, 33));
         BT65.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -578,7 +578,7 @@ public class Player1AgentGUIImpl extends javax.swing.JFrame implements Player1Ag
         BT64.setBackground(java.awt.Color.white);
         BT64.setForeground(java.awt.Color.white);
         BT64.setEnabled(false);
-        BT64.setName("B31"); // NOI18N
+        BT64.setName("BT46"); // NOI18N
         BT64.setPreferredSize(new java.awt.Dimension(33, 33));
         BT64.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -589,7 +589,7 @@ public class Player1AgentGUIImpl extends javax.swing.JFrame implements Player1Ag
         BT68.setBackground(java.awt.Color.white);
         BT68.setForeground(java.awt.Color.white);
         BT68.setEnabled(false);
-        BT68.setName("B32"); // NOI18N
+        BT68.setName("BT86"); // NOI18N
         BT68.setPreferredSize(new java.awt.Dimension(33, 33));
         BT68.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -600,7 +600,7 @@ public class Player1AgentGUIImpl extends javax.swing.JFrame implements Player1Ag
         BT61.setBackground(new java.awt.Color(255, 255, 255));
         BT61.setForeground(new java.awt.Color(255, 255, 255));
         BT61.setEnabled(false);
-        BT61.setName("B11"); // NOI18N
+        BT61.setName("BT16"); // NOI18N
         BT61.setPreferredSize(new java.awt.Dimension(33, 33));
         BT61.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -611,7 +611,7 @@ public class Player1AgentGUIImpl extends javax.swing.JFrame implements Player1Ag
         BT62.setBackground(java.awt.Color.white);
         BT62.setForeground(java.awt.Color.white);
         BT62.setEnabled(false);
-        BT62.setName("B12"); // NOI18N
+        BT62.setName("BT26"); // NOI18N
         BT62.setPreferredSize(new java.awt.Dimension(33, 33));
         BT62.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -622,7 +622,7 @@ public class Player1AgentGUIImpl extends javax.swing.JFrame implements Player1Ag
         BT63.setBackground(java.awt.Color.white);
         BT63.setForeground(java.awt.Color.white);
         BT63.setEnabled(false);
-        BT63.setName("B13"); // NOI18N
+        BT63.setName("BT36"); // NOI18N
         BT63.setPreferredSize(new java.awt.Dimension(33, 33));
         BT63.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -633,7 +633,7 @@ public class Player1AgentGUIImpl extends javax.swing.JFrame implements Player1Ag
         BT67.setBackground(java.awt.Color.white);
         BT67.setForeground(java.awt.Color.white);
         BT67.setEnabled(false);
-        BT67.setName("B31"); // NOI18N
+        BT67.setName("BT76"); // NOI18N
         BT67.setPreferredSize(new java.awt.Dimension(33, 33));
         BT67.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -644,7 +644,7 @@ public class Player1AgentGUIImpl extends javax.swing.JFrame implements Player1Ag
         BT76.setBackground(java.awt.Color.white);
         BT76.setForeground(java.awt.Color.white);
         BT76.setEnabled(false);
-        BT76.setName("B33"); // NOI18N
+        BT76.setName("BT67"); // NOI18N
         BT76.setPreferredSize(new java.awt.Dimension(33, 33));
         BT76.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -655,7 +655,7 @@ public class Player1AgentGUIImpl extends javax.swing.JFrame implements Player1Ag
         BT75.setBackground(java.awt.Color.white);
         BT75.setForeground(java.awt.Color.white);
         BT75.setEnabled(false);
-        BT75.setName("B32"); // NOI18N
+        BT75.setName("BT57"); // NOI18N
         BT75.setPreferredSize(new java.awt.Dimension(33, 33));
         BT75.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -666,7 +666,7 @@ public class Player1AgentGUIImpl extends javax.swing.JFrame implements Player1Ag
         BT74.setBackground(java.awt.Color.white);
         BT74.setForeground(java.awt.Color.white);
         BT74.setEnabled(false);
-        BT74.setName("B31"); // NOI18N
+        BT74.setName("BT47"); // NOI18N
         BT74.setPreferredSize(new java.awt.Dimension(33, 33));
         BT74.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -677,7 +677,7 @@ public class Player1AgentGUIImpl extends javax.swing.JFrame implements Player1Ag
         BT78.setBackground(java.awt.Color.white);
         BT78.setForeground(java.awt.Color.white);
         BT78.setEnabled(false);
-        BT78.setName("B32"); // NOI18N
+        BT78.setName("BT87"); // NOI18N
         BT78.setPreferredSize(new java.awt.Dimension(33, 33));
         BT78.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -688,7 +688,7 @@ public class Player1AgentGUIImpl extends javax.swing.JFrame implements Player1Ag
         BT71.setBackground(new java.awt.Color(255, 255, 255));
         BT71.setForeground(new java.awt.Color(255, 255, 255));
         BT71.setEnabled(false);
-        BT71.setName("B11"); // NOI18N
+        BT71.setName("BT17"); // NOI18N
         BT71.setPreferredSize(new java.awt.Dimension(33, 33));
         BT71.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -699,7 +699,7 @@ public class Player1AgentGUIImpl extends javax.swing.JFrame implements Player1Ag
         BT72.setBackground(java.awt.Color.white);
         BT72.setForeground(java.awt.Color.white);
         BT72.setEnabled(false);
-        BT72.setName("B12"); // NOI18N
+        BT72.setName("BT27"); // NOI18N
         BT72.setPreferredSize(new java.awt.Dimension(33, 33));
         BT72.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -710,7 +710,7 @@ public class Player1AgentGUIImpl extends javax.swing.JFrame implements Player1Ag
         BT73.setBackground(java.awt.Color.white);
         BT73.setForeground(java.awt.Color.white);
         BT73.setEnabled(false);
-        BT73.setName("B13"); // NOI18N
+        BT73.setName("BT37"); // NOI18N
         BT73.setPreferredSize(new java.awt.Dimension(33, 33));
         BT73.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -721,7 +721,7 @@ public class Player1AgentGUIImpl extends javax.swing.JFrame implements Player1Ag
         BT77.setBackground(java.awt.Color.white);
         BT77.setForeground(java.awt.Color.white);
         BT77.setEnabled(false);
-        BT77.setName("B31"); // NOI18N
+        BT77.setName("BT77"); // NOI18N
         BT77.setPreferredSize(new java.awt.Dimension(33, 33));
         BT77.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -732,7 +732,7 @@ public class Player1AgentGUIImpl extends javax.swing.JFrame implements Player1Ag
         BT86.setBackground(java.awt.Color.white);
         BT86.setForeground(java.awt.Color.white);
         BT86.setEnabled(false);
-        BT86.setName("B33"); // NOI18N
+        BT86.setName("BT68"); // NOI18N
         BT86.setPreferredSize(new java.awt.Dimension(33, 33));
         BT86.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -743,7 +743,7 @@ public class Player1AgentGUIImpl extends javax.swing.JFrame implements Player1Ag
         BT85.setBackground(java.awt.Color.white);
         BT85.setForeground(java.awt.Color.white);
         BT85.setEnabled(false);
-        BT85.setName("B32"); // NOI18N
+        BT85.setName("BT58"); // NOI18N
         BT85.setPreferredSize(new java.awt.Dimension(33, 33));
         BT85.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -754,7 +754,7 @@ public class Player1AgentGUIImpl extends javax.swing.JFrame implements Player1Ag
         BT84.setBackground(java.awt.Color.white);
         BT84.setForeground(java.awt.Color.white);
         BT84.setEnabled(false);
-        BT84.setName("B31"); // NOI18N
+        BT84.setName("BT48"); // NOI18N
         BT84.setPreferredSize(new java.awt.Dimension(33, 33));
         BT84.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -765,7 +765,7 @@ public class Player1AgentGUIImpl extends javax.swing.JFrame implements Player1Ag
         BT88.setBackground(java.awt.Color.white);
         BT88.setForeground(java.awt.Color.white);
         BT88.setEnabled(false);
-        BT88.setName("B32"); // NOI18N
+        BT88.setName("BT88"); // NOI18N
         BT88.setPreferredSize(new java.awt.Dimension(33, 33));
         BT88.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -776,7 +776,7 @@ public class Player1AgentGUIImpl extends javax.swing.JFrame implements Player1Ag
         BT81.setBackground(new java.awt.Color(255, 255, 255));
         BT81.setForeground(new java.awt.Color(255, 255, 255));
         BT81.setEnabled(false);
-        BT81.setName("B11"); // NOI18N
+        BT81.setName("BT18"); // NOI18N
         BT81.setPreferredSize(new java.awt.Dimension(33, 33));
         BT81.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -787,7 +787,7 @@ public class Player1AgentGUIImpl extends javax.swing.JFrame implements Player1Ag
         BT82.setBackground(java.awt.Color.white);
         BT82.setForeground(java.awt.Color.white);
         BT82.setEnabled(false);
-        BT82.setName("B12"); // NOI18N
+        BT82.setName("BT28"); // NOI18N
         BT82.setPreferredSize(new java.awt.Dimension(33, 33));
         BT82.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -798,7 +798,7 @@ public class Player1AgentGUIImpl extends javax.swing.JFrame implements Player1Ag
         BT83.setBackground(java.awt.Color.white);
         BT83.setForeground(java.awt.Color.white);
         BT83.setEnabled(false);
-        BT83.setName("B13"); // NOI18N
+        BT83.setName("BT38"); // NOI18N
         BT83.setPreferredSize(new java.awt.Dimension(33, 33));
         BT83.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -809,7 +809,7 @@ public class Player1AgentGUIImpl extends javax.swing.JFrame implements Player1Ag
         BT87.setBackground(java.awt.Color.white);
         BT87.setForeground(java.awt.Color.white);
         BT87.setEnabled(false);
-        BT87.setName("B31"); // NOI18N
+        BT87.setName("BT78"); // NOI18N
         BT87.setPreferredSize(new java.awt.Dimension(33, 33));
         BT87.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1314,8 +1314,8 @@ btnActionPerformed(BT55);
     }
     
     public void activateButton(){
-        for (int i=0; i<3; i++) {
-            for (int j=0; j<3;j++) {
+        for (int i=0; i<8; i++) {
+            for (int j=0; j<8;j++) {
                 if (myAgent.tictactoe[i][j] == -1) {
                     getButton(i*3+j).setEnabled(true);
                 }
@@ -1324,8 +1324,8 @@ btnActionPerformed(BT55);
     }
     
     public void deactivateButton(){
-        for (int i=0; i<3; i++) {
-            for (int j=0; j<3;j++) {
+        for (int i=0; i<8; i++) {
+            for (int j=0; j<8;j++) {
                 getButton(i*3+j).setEnabled(false);
             }
         }

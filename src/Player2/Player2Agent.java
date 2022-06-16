@@ -97,14 +97,14 @@ public class Player2Agent extends Agent {
     // method ini dipanggil setiap kali ada tombol yang ditekan oleh pemain
     void updateBoard(String bt){
         setTurn(false);
-        row = Integer.parseInt(String.valueOf(bt.charAt(3)))-1;
-        column = Integer.parseInt(String.valueOf(bt.charAt(4)))-1;
+        row = Integer.parseInt(String.valueOf(bt.charAt(2)))-1;
+        column = Integer.parseInt(String.valueOf(bt.charAt(3)))-1;
         tictactoe[row][column] = 1;
         // kirim berita ke tac
         ACLMessage msg = new ACLMessage(ACLMessage.INFORM);
-	msg.setContent(""+bt.charAt(3)+bt.charAt(4));
-     	msg.addReceiver( new AID( "tac", AID.ISLOCALNAME) );
-        System.out.println("Tic -> Tac: " + msg.getContent());
+	msg.setContent(""+bt.charAt(2)+bt.charAt(3));
+     	msg.addReceiver( new AID( "Player1", AID.ISLOCALNAME) );
+        System.out.println("Player2 -> Player1: " + msg.getContent());
 //        System.out.println("pesan "+ msg.toString());
 	send(msg);
     }
