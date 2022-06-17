@@ -1306,7 +1306,7 @@ btnActionPerformed(BT55);
     private void btnActionPerformed(javax.swing.JButton btn){
         System.out.println("Button Clicked");
         if (btn.isEnabled() && myAgent.isTurn()) {
-            btn.setBackground(Color.black);
+            btn.setBackground(Color.red);
             deactivateButton();
             myAgent.updateBoard(btn.getName());
             notifyUser(btn.getName()+" is pressed.");
@@ -1314,12 +1314,17 @@ btnActionPerformed(BT55);
     }
     
     public void activateButton(){
-          for (int i=0; i<88; i++) {
+            for (int i=0; i<88; i++) {
                     if(getButton(i)!=null){
+                        int c=(i/10)-1;
+                        int r=(i%10)-1;
+                        if(myAgent.tictactoe[c][r]==0){
                         getButton(i).setEnabled(true); 
-                    }
+                        }
+                     }
                    
         }
+
     }
     
     public void deactivateButton(){

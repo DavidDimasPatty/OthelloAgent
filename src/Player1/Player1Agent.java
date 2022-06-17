@@ -23,7 +23,10 @@ public class Player1Agent extends Agent
     protected void setup() {
         // Printout a welcome message   
         System.out.println("Tac-agent "+getAID().getName()+" is ready.");   
-
+        tictactoe[3][3]=1;
+        tictactoe[3][4]=-1;
+        tictactoe[4][3]=1;
+        tictactoe[4][4]=-1;
         // Show the GUI to interact with the user   
         tacGui = new Player1AgentGUIImpl();   
         tacGui.setAgent(this);   
@@ -77,12 +80,12 @@ public class Player1Agent extends Agent
                     System.out.println("jalan: "+lastMsg);
                     int r = Integer.parseInt(String.valueOf(msg.getContent().charAt(0)));
                     int c = Integer.parseInt(String.valueOf(msg.getContent().charAt(1)));
-                    tictactoe[c][r] = -1;
+                    tictactoe[c-1][r-1] = -1;
                     String rc=c+""+r;
                      System.out.println("rc: "+rc);
                     int butCase=Integer.parseInt(rc);
                     javax.swing.JButton btn = tacGui.getButton(butCase);
-                    btn.setBackground(Color.red);
+                    btn.setBackground(Color.black);
                     tacGui.activateButton();
                     setTurn(true);
                 }
@@ -102,7 +105,7 @@ public class Player1Agent extends Agent
         setTurn(false);
         row = Integer.parseInt(String.valueOf(bt.charAt(2)))-1;
         column = Integer.parseInt(String.valueOf(bt.charAt(3)))-1;
-        tictactoe[row][column] = 1;
+        tictactoe[column][row] = 1;
         // kirim berita ke tic
         ACLMessage msg = new ACLMessage(ACLMessage.INFORM);
 	msg.setContent(""+bt.charAt(2)+bt.charAt(3));

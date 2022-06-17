@@ -19,7 +19,10 @@ public class Player2Agent extends Agent {
    
     protected void setup(){
         System.out.println("Tic-agent "+getAID().getName()+" is ready.");   
-
+        tictactoe[3][3]=1;
+        tictactoe[3][4]=-1;
+        tictactoe[4][3]=1;
+        tictactoe[4][4]=-1;
         // Show the GUI to interact with the user   
         ticGui = new Player2GUIImplementation();   
         ticGui.setAgent(this);   
@@ -73,7 +76,7 @@ public class Player2Agent extends Agent {
                 if ((msg != null) && (!msg.getContent().equals((String) lastMsg))){
                       int r = Integer.parseInt(String.valueOf(msg.getContent().charAt(0)));
                     int c = Integer.parseInt(String.valueOf(msg.getContent().charAt(1)));
-                    tictactoe[c][r] = 1;
+                    tictactoe[c-1][r-1] = 1;
                     String rc=c+""+r;
                     int butCase=Integer.parseInt(rc);
                     javax.swing.JButton btn = ticGui.getButton(butCase);
@@ -101,7 +104,8 @@ public class Player2Agent extends Agent {
         setTurn(false);
         row = Integer.parseInt(String.valueOf(bt.charAt(2)))-1;
         column = Integer.parseInt(String.valueOf(bt.charAt(3)))-1;
-        tictactoe[row][column] = 1;
+        System.out.println("updateARRAY: " + row+ " "+ column);
+        tictactoe[column][row] = -1;
         // kirim berita ke tac
         ACLMessage msg = new ACLMessage(ACLMessage.INFORM);
 	msg.setContent(""+bt.charAt(2)+bt.charAt(3));

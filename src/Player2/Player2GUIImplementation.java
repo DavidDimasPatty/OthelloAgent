@@ -1356,8 +1356,12 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
     public void activateButton(){
         for (int i=0; i<88; i++) {
                     if(getButton(i)!=null){
+                        int c=(i/10)-1;
+                        int r=(i%10)-1;
+                        if(myAgent.tictactoe[c][r]==0){
                         getButton(i).setEnabled(true); 
-                    }
+                        }
+                     }
                    
         }
     }
