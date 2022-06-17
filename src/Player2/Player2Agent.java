@@ -21,8 +21,8 @@ public class Player2Agent extends Agent {
         System.out.println("Tic-agent "+getAID().getName()+" is ready.");   
         tictactoe[3][3]=1;
         tictactoe[3][4]=-1;
-        tictactoe[4][3]=1;
-        tictactoe[4][4]=-1;
+        tictactoe[4][3]=-1;
+        tictactoe[4][4]=1;
         // Show the GUI to interact with the user   
         ticGui = new Player2GUIImplementation();   
         ticGui.setAgent(this);   

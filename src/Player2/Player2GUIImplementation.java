@@ -1353,13 +1353,109 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
         }         
     }
     
+    void validate(int pos){
+       int column=(pos/10)-1;
+       int row=(pos%10)-1;
+       boolean validLeft=false;   
+       boolean validRight=false;
+       boolean validDown=false;
+       boolean validUp=false;
+       
+        //kiri
+            try{
+            if(myAgent.tictactoe[column-1][row]==1){
+                for(int k=column-1;k>0;k--){
+                      if(myAgent.tictactoe[k-1][row]==-1){
+                        validLeft=true;
+                        break;
+                      }
+                      if(myAgent.tictactoe[k-1][row]==0){
+                        break;
+                      }
+                 }
+               
+             }
+            }
+            catch(Exception e){
+                
+            }
+           
+             
+       //kanan
+      
+           try{
+               if(myAgent.tictactoe[column+1][row]==1){
+                for(int k=column+1;k+1<8;k++){
+                      if(myAgent.tictactoe[k+1][row]==-1){
+                        validRight=true;
+                        break;
+                      }
+                      if(myAgent.tictactoe[k+1][row]==0){
+                        break;
+                      }
+                 }
+            
+             }
+            }
+            catch(Exception e){
+                
+            }
+           
+         
+       //bawah
+        try{
+           if(myAgent.tictactoe[column][row+1]==1){
+                for(int k=row+1;k+1<8;k++){
+                      if(myAgent.tictactoe[column][k+1]==-1){
+                        validDown=true;
+                        break;
+                      }
+                      if(myAgent.tictactoe[column][k+1]==0){
+                        break;
+                      }
+                 }
+             }   
+        }
+         catch(Exception e){
+                
+        }
+           
+         
+         
+       //atas
+       try{
+           if(myAgent.tictactoe[column][row-1]==1){
+                for(int k=row-1;k>0;k--){
+                      if(myAgent.tictactoe[column][k-1]==-1){
+                        validUp=true;
+                        break;
+                      }
+                      if(myAgent.tictactoe[column][k-1]==0){
+                        break;
+                      }
+                 }
+              }   
+        }
+         catch(Exception e){
+                
+        }
+         
+        
+      
+      if(validLeft==true||validRight==true||validUp==true||validDown==true){
+             getButton(pos).setEnabled(true); 
+      }
+      
+    }
+    
     public void activateButton(){
         for (int i=0; i<88; i++) {
                     if(getButton(i)!=null){
                         int c=(i/10)-1;
                         int r=(i%10)-1;
                         if(myAgent.tictactoe[c][r]==0){
-                        getButton(i).setEnabled(true); 
+                            validate(i);
+                            //getButton(i).setEnabled(true); 
                         }
                      }
                    
