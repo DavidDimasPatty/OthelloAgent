@@ -74,6 +74,7 @@ public class Player2Agent extends Agent {
             if (step == 1 && !isTurn()) {
                 msg = receive();
                 if ((msg != null) && (!msg.getContent().equals((String) lastMsg))){
+                    System.out.println(msg.getContent());
                     String tempbt="";
                     for(int i=0;i<msg.getContent().length();i++){
                         if(msg.getContent().charAt(i)==','){
@@ -84,7 +85,7 @@ public class Player2Agent extends Agent {
                             String rc=c+""+r;
                             int butCase=Integer.parseInt(rc);
                             javax.swing.JButton btn = ticGui.getButton(butCase);
-                            btn.setBackground(Color.black);
+                            btn.setBackground(Color.red);
                             tempbt="";
                         }
                         else{
