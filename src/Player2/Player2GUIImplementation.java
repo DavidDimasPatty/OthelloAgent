@@ -1352,7 +1352,6 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
             int column=(pos/10)-1;
             int row=(pos%10)-1;
             String result=(column+1)+""+(row+1)+",";
-            System.out.println("update: "+row+" "+column);
             boolean validLeft=false;   
             boolean validRight=false;
             boolean validDown=false;
@@ -1440,7 +1439,7 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
         
       
       if(validLeft==true){
-          System.out.println("masukLeft");
+        
           for(int k=column-1;k>0;k--){
            if(myAgent.tictactoe[k][row]==-1){
                 break;
@@ -1456,7 +1455,7 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
           
       }
       if(validRight==true){
-          System.out.println("masukRight");
+    
           for(int k=column+1;k+1<8;k++){
            if(myAgent.tictactoe[k][row]==-1){
                break;
@@ -1472,7 +1471,7 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
               
       }
       if(validUp==true){
-          System.out.println("masukUp");
+          
           for(int k=row-1;k>0;k--){
            if(myAgent.tictactoe[column][k]==-1){
                         break;
@@ -1486,7 +1485,7 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
           }    
       }
       if(validDown==true){
-          System.out.println("masukDown");
+          
           for(int k=row+1;k+1<8;k++){
                    if(myAgent.tictactoe[column][k]==-1){
                          break;

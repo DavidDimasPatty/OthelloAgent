@@ -119,7 +119,8 @@ public class Player2Agent extends Agent {
               if(bt.charAt(i)==','){
                 row = Integer.parseInt(String.valueOf(tempBT.charAt(0)));
                 column = Integer.parseInt(String.valueOf(tempBT.charAt(1)));
-                tictactoe[column][row] = -1;
+                System.out.println("player2: "+column+""+row);
+                tictactoe[column-1][row-1] = -1;
                   tempBT="";
               }
               else{
