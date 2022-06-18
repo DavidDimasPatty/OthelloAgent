@@ -1311,6 +1311,7 @@ btnActionPerformed(BT55);
             int pos = Integer.parseInt(btn.getName().substring(2,btn.getName().length()));
             int column=(pos/10)-1;
             int row=(pos%10)-1;
+             String result=(column+1)+""+(row+1)+",";
             System.out.println("update: "+row+" "+column);
             boolean validLeft=false;   
             boolean validRight=false;
@@ -1405,6 +1406,7 @@ btnActionPerformed(BT55);
            if(myAgent.tictactoe[k][row]==-1){
                
                         String temp=(row+1)+""+(k+1);
+                         result=result+temp+",";
                         System.out.println("temp: "+temp);
                         getButton(Integer.parseInt(temp)).setBackground(Color.red);                       
              }
@@ -1419,6 +1421,7 @@ btnActionPerformed(BT55);
              }
            if(myAgent.tictactoe[k][row]==-1){
                        String temp=(row+1)+""+(k+1);
+                        result=result+temp+",";
                         System.out.println("temp: "+temp);
                         getButton(Integer.parseInt(temp)).setBackground(Color.red);         
                         
@@ -1434,6 +1437,7 @@ btnActionPerformed(BT55);
                }
            if(myAgent.tictactoe[column][k]==-1){
                         String temp=(k+1)+""+(column+1);
+                         result=result+temp+",";
                         System.out.println("temp: "+temp);
                         getButton(Integer.parseInt(temp)).setBackground(Color.red);                
                }
@@ -1447,6 +1451,7 @@ btnActionPerformed(BT55);
                       }
                     if(myAgent.tictactoe[column][k]==-1){
                         String temp=(k+1)+""+(column+1);
+                         result=result+temp+",";
                         System.out.println("temp: "+temp);
                         getButton(Integer.parseInt(temp)).setBackground(Color.red);   
                         
@@ -1454,7 +1459,7 @@ btnActionPerformed(BT55);
               }
       }
             
-            myAgent.updateBoard(btn.getName());
+            myAgent.updateBoard(result);
             notifyUser(btn.getName()+" is pressed.");
         }         
     }

@@ -1351,6 +1351,7 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
             int pos = Integer.parseInt(btn.getName().substring(2,btn.getName().length()));
             int column=(pos/10)-1;
             int row=(pos%10)-1;
+            String result=(column+1)+""+(row+1)+",";
             System.out.println("update: "+row+" "+column);
             boolean validLeft=false;   
             boolean validRight=false;
@@ -1447,6 +1448,7 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
            if(myAgent.tictactoe[k][row]==1){
                
                         String temp=(k+1)+""+(row+1);
+                         result=result+temp+",";
                         System.out.println("temp: "+temp);
                         getButton(Integer.parseInt(temp)).setBackground(Color.black);                       
              }
@@ -1461,6 +1463,7 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
              }
            if(myAgent.tictactoe[k][row]==1){
                        String temp=(k+1)+""+(row+1);
+                       result=result+temp+",";
                         System.out.println("temp: "+temp);
                         getButton(Integer.parseInt(temp)).setBackground(Color.black);         
                         
@@ -1476,6 +1479,7 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
                }
            if(myAgent.tictactoe[column][k]==1){
                         String temp=(column+1)+""+(k+1);
+                        result=result+temp+",";
                         System.out.println("temp: "+temp);
                         getButton(Integer.parseInt(temp)).setBackground(Color.black);                
                }
@@ -1489,6 +1493,7 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
                       }
                     if(myAgent.tictactoe[column][k]==1){
                         String temp=(column+1)+""+(k+1);
+                        result=result+temp+",";
                         System.out.println("temp: "+temp);
                         getButton(Integer.parseInt(temp)).setBackground(Color.black);   
                         
@@ -1496,7 +1501,7 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
               }
       }
             
-            myAgent.updateBoard(btn.getName());
+            myAgent.updateBoard(result);
             notifyUser(btn.getName()+" is pressed.");
         }         
     }

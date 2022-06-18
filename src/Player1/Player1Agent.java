@@ -77,15 +77,25 @@ public class Player1Agent extends Agent
             
                 if ((msg != null) && (!msg.getContent().equals((String) lastMsg))){
                     lastMsg = msg.getContent();
-                    System.out.println("jalan: "+lastMsg);
-                    int r = Integer.parseInt(String.valueOf(msg.getContent().charAt(0)));
-                    int c = Integer.parseInt(String.valueOf(msg.getContent().charAt(1)));
-                    tictactoe[c-1][r-1] = -1;
-                    String rc=c+""+r;
-                     System.out.println("rc: "+rc);
-                    int butCase=Integer.parseInt(rc);
-                    javax.swing.JButton btn = tacGui.getButton(butCase);
-                    btn.setBackground(Color.black);
+                    System.out.println(msg.getContent());
+                    String tempbt="";
+                    for(int i=0;i<msg.getContent().length();i++){
+                        if(msg.getContent().charAt(i)==','){
+                            System.out.println("masuk");
+                            int r = Integer.parseInt(String.valueOf(tempbt.charAt(0)));
+                            int c = Integer.parseInt(String.valueOf(tempbt.charAt(1)));
+                            tictactoe[c-1][r-1] = -1;
+                            String rc=c+""+r;
+                            int butCase=Integer.parseInt(rc);
+                            javax.swing.JButton btn = tacGui.getButton(butCase);
+                            btn.setBackground(Color.black);
+                            tempbt="";
+                        }
+                        else{
+                        tempbt=tempbt+msg.getContent().charAt(i);
+                        }
+                    }
+                    
                     tacGui.activateButton();
                     setTurn(true);
                 }
@@ -103,12 +113,21 @@ public class Player1Agent extends Agent
     
     void updateBoard(String bt){
         setTurn(false);
-        row = Integer.parseInt(String.valueOf(bt.charAt(2)))-1;
-        column = Integer.parseInt(String.valueOf(bt.charAt(3)))-1;
-        tictactoe[column][row] = 1;
+          String tempBT="";
+        for(int i=0;i<bt.length();i++){
+              if(bt.charAt(i)==','){
+                row = Integer.parseInt(String.valueOf(tempBT.charAt(0)));
+                column = Integer.parseInt(String.valueOf(tempBT.charAt(1)));
+                tictactoe[column][row] = 1;
+                  tempBT="";
+              }
+              else{
+                  tempBT=tempBT+bt.charAt(i);
+              }
+        }
         // kirim berita ke tic
         ACLMessage msg = new ACLMessage(ACLMessage.INFORM);
-	msg.setContent(""+bt.charAt(2)+bt.charAt(3));
+	msg.setContent(""+bt);
      	msg.addReceiver( new AID( "Player2", AID.ISLOCALNAME) );
         System.out.println("Player1 -> Player2: " + msg.getContent());
 	send(msg);
