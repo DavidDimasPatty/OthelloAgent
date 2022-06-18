@@ -1312,7 +1312,7 @@ btnActionPerformed(BT55);
             int column=(pos/10)-1;
             int row=(pos%10)-1;
              String result=(column+1)+""+(row+1)+",";
-            System.out.println("update: "+row+" "+column);
+            System.out.println("update: "+column+" "+row);
             boolean validLeft=false;   
             boolean validRight=false;
             boolean validDown=false;
@@ -1405,10 +1405,11 @@ btnActionPerformed(BT55);
              }
            if(myAgent.tictactoe[k][row]==-1){
                
-                        String temp=(row+1)+""+(k+1);
+                        String temp=(k+1)+""+(row+1);
+                        String tempP1=(row+1)+""+(k+1);
                          result=result+temp+",";
-                        System.out.println("temp: "+temp);
-                        getButton(Integer.parseInt(temp)).setBackground(Color.red);                       
+                        System.out.println("temp: "+tempP1);
+                        getButton(Integer.parseInt(tempP1)).setBackground(Color.red);                       
              }
           }
           
@@ -1420,10 +1421,11 @@ btnActionPerformed(BT55);
                break;
              }
            if(myAgent.tictactoe[k][row]==-1){
-                       String temp=(row+1)+""+(k+1);
-                        result=result+temp+",";
+                       String temp=(k+1)+""+(row+1);
+                       String tempP1=(row+1)+""+(k+1);
+                       result=result+temp+",";
                         System.out.println("temp: "+temp);
-                        getButton(Integer.parseInt(temp)).setBackground(Color.red);         
+                        getButton(Integer.parseInt(tempP1)).setBackground(Color.red);         
                         
              }
           }
@@ -1436,10 +1438,11 @@ btnActionPerformed(BT55);
                         break;
                }
            if(myAgent.tictactoe[column][k]==-1){
-                        String temp=(k+1)+""+(column+1);
+                        String temp=(column+1)+""+(k+1);
+                         String tempP1=(k+1)+""+(column+1);
                          result=result+temp+",";
-                        System.out.println("temp: "+temp);
-                        getButton(Integer.parseInt(temp)).setBackground(Color.red);                
+                        System.out.println("temp: "+tempP1);
+                        getButton(Integer.parseInt(tempP1)).setBackground(Color.red);                
                }
           }    
       }
@@ -1450,10 +1453,11 @@ btnActionPerformed(BT55);
                          break;
                       }
                     if(myAgent.tictactoe[column][k]==-1){
-                        String temp=(k+1)+""+(column+1);
+                        String temp=(column+1)+""+(k+1);
+                        String tempP1=(k+1)+""+(column+1);
                          result=result+temp+",";
-                        System.out.println("temp: "+temp);
-                        getButton(Integer.parseInt(temp)).setBackground(Color.red);   
+                        System.out.println("temp: "+Integer.parseInt(tempP1));
+                        getButton(Integer.parseInt(tempP1)).setBackground(Color.red);   
                         
                       }
               }
