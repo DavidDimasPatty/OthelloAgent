@@ -74,14 +74,15 @@ public class Player2Agent extends Agent {
             if (step == 1 && !isTurn()) {
                 msg = receive();
                 if ((msg != null) && (!msg.getContent().equals((String) lastMsg))){
-                    System.out.println(msg.getContent());
+                    
                     String tempbt="";
                     for(int i=0;i<msg.getContent().length();i++){
                         if(msg.getContent().charAt(i)==','){
-                            System.out.println("masuk");
+                           
                             int r = Integer.parseInt(String.valueOf(tempbt.charAt(0)));
                             int c = Integer.parseInt(String.valueOf(tempbt.charAt(1)));
                             tictactoe[c-1][r-1] = 1;
+                            System.out.println("playP2: "+(c-1)+" "+(r-1));
                             String rc=c+""+r;
                             int butCase=Integer.parseInt(rc);
                             javax.swing.JButton btn = ticGui.getButton(butCase);
@@ -92,7 +93,12 @@ public class Player2Agent extends Agent {
                         tempbt=tempbt+msg.getContent().charAt(i);
                         }
                     }
-                    
+                      for(int i=0;i<8;i++){
+                        for(int j=0;j<8;j++){
+                               System.out.print(tictactoe[i][j]+" ");
+                       } 
+                        System.out.println(" ");
+                    }
                     ticGui.activateButton();
                     setTurn(true);
                 }
@@ -119,7 +125,7 @@ public class Player2Agent extends Agent {
               if(bt.charAt(i)==','){
                 row = Integer.parseInt(String.valueOf(tempBT.charAt(0)));
                 column = Integer.parseInt(String.valueOf(tempBT.charAt(1)));
-                System.out.println("player2: "+column+""+row);
+               System.out.println("updateP2: "+(row-1)+" "+(column-1));
                 tictactoe[column-1][row-1] = -1;
                   tempBT="";
               }

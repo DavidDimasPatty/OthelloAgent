@@ -1345,20 +1345,30 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
     
     void BtnActionPerformed(javax.swing.JButton btn) {
         if (btn.isEnabled() && myAgent.isTurn()) {
+             System.out.println("Button Clicked");
             btn.setBackground(Color.black);
             deactivateButton();
             System.out.println(btn.getName());
             int pos = Integer.parseInt(btn.getName().substring(2,btn.getName().length()));
             int column=(pos/10)-1;
             int row=(pos%10)-1;
+            System.out.println("button arr:"+column+" "+row);
             String result=(column+1)+""+(row+1)+",";
             boolean validLeft=false;   
             boolean validRight=false;
             boolean validDown=false;
             boolean validUp=false;
+            
+             for(int i=0;i<8;i++){
+                        for(int j=0;j<8;j++){
+                               System.out.print(myAgent.tictactoe[i][j]+" ");
+                       } 
+                        System.out.println(" ");
+                    }
+                    
        
         //kiri
-            try{
+           try{
             if(myAgent.tictactoe[column-1][row]==1){
                 for(int k=column-1;k>0;k--){
                       if(myAgent.tictactoe[k-1][row]==-1){
@@ -1435,11 +1445,12 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
          catch(Exception e){
                 
         }
+
          
         
       
       if(validLeft==true){
-        
+           
           for(int k=column-1;k>0;k--){
            if(myAgent.tictactoe[k][row]==-1){
                 break;
@@ -1455,8 +1466,8 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
           
       }
       if(validRight==true){
-    
-          for(int k=column+1;k+1<8;k++){
+       System.out.println("MasukRight");
+          for(int k=column+1;k<8;k++){
            if(myAgent.tictactoe[k][row]==-1){
                break;
              }
@@ -1471,7 +1482,7 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
               
       }
       if(validUp==true){
-          
+             System.out.println("MasukUp");
           for(int k=row-1;k>0;k--){
            if(myAgent.tictactoe[column][k]==-1){
                         break;
@@ -1485,12 +1496,12 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
           }    
       }
       if(validDown==true){
-          
-          for(int k=row+1;k+1<8;k++){
+             System.out.println("MasukDown");
+          for(int k=row+1;k<8;k++){
                    if(myAgent.tictactoe[column][k]==-1){
                          break;
                       }
-                    if(myAgent.tictactoe[column][k]==1){
+                    if(myAgent.tictactoe[column][k+1]==1){
                         String temp=(column+1)+""+(k+1);
                         result=result+temp+",";
                         System.out.println("temp: "+temp);

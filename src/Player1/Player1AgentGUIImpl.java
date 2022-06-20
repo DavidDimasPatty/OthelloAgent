@@ -1312,12 +1312,13 @@ btnActionPerformed(BT55);
             int column=(pos/10)-1;
             int row=(pos%10)-1;
              String result=(column+1)+""+(row+1)+",";
+             System.out.println("button arr:"+column+" "+row);
           
             boolean validLeft=false;   
             boolean validRight=false;
             boolean validDown=false;
             boolean validUp=false;
-              try{
+             try{
             if(myAgent.tictactoe[column-1][row]==-1){
                 for(int k=column-1;k>0;k--){
                       if(myAgent.tictactoe[k-1][row]==1){
@@ -1398,7 +1399,7 @@ btnActionPerformed(BT55);
         
       
       if(validLeft==true){
-         
+         System.out.println("MasukLeft");
           for(int k=column-1;k>0;k--){
            if(myAgent.tictactoe[k][row]==1){
                 break;
@@ -1415,8 +1416,8 @@ btnActionPerformed(BT55);
           
       }
       if(validRight==true){
-       
-          for(int k=column+1;k+1<8;k++){
+       System.out.println("MasukRight");
+          for(int k=column+1;k<8;k++){
            if(myAgent.tictactoe[k][row]==1){
                break;
              }
@@ -1433,7 +1434,7 @@ btnActionPerformed(BT55);
               
       }
       if(validUp==true){
-        
+       System.out.println("MasukUp");        
           for(int k=row-1;k>0;k--){
            if(myAgent.tictactoe[column][k]==1){
                         break;
@@ -1448,8 +1449,8 @@ btnActionPerformed(BT55);
           }    
       }
       if(validDown==true){
-         
-          for(int k=row+1;k+1<8;k++){
+                System.out.println("MasukDown");
+          for(int k=row+1;k<8;k++){
                    if(myAgent.tictactoe[column][k]==1){
                          break;
                       }
