@@ -1501,7 +1501,7 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
                    if(myAgent.tictactoe[column][k]==-1){
                          break;
                       }
-                    if(myAgent.tictactoe[column][k+1]==1){
+                    if(myAgent.tictactoe[column][k]==1){
                         String temp=(column+1)+""+(k+1);
                         result=result+temp+",";
                         System.out.println("temp: "+temp);
