@@ -12,7 +12,9 @@ import java.awt.Color;
  * @author USER
  */
 public class Player2GUIImplementation extends javax.swing.JFrame implements Player2AgentGUI {
+
     private Player2Agent myAgent;
+
     /**
      * Creates new form TicGUIImplementation
      */
@@ -1069,658 +1071,680 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
 
     private void BT22ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT22ActionPerformed
         // TODO add your handling code here:
-         BtnActionPerformed(BT22);
+        BtnActionPerformed(BT22);
     }//GEN-LAST:event_BT22ActionPerformed
 
     private void BT23ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT23ActionPerformed
         // TODO add your handling code here:
-         BtnActionPerformed(BT23);
+        BtnActionPerformed(BT23);
     }//GEN-LAST:event_BT23ActionPerformed
 
     private void BT24ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT24ActionPerformed
         // TODO add your handling code here:
-         BtnActionPerformed(BT24);
+        BtnActionPerformed(BT24);
     }//GEN-LAST:event_BT24ActionPerformed
 
     private void BT25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT25ActionPerformed
         // TODO add your handling code here:
-         BtnActionPerformed(BT25);
+        BtnActionPerformed(BT25);
     }//GEN-LAST:event_BT25ActionPerformed
 
     private void BT26ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT26ActionPerformed
         // TODO add your handling code here:
-         BtnActionPerformed(BT26);
+        BtnActionPerformed(BT26);
     }//GEN-LAST:event_BT26ActionPerformed
 
     private void BT27ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT27ActionPerformed
         // TODO add your handling code here:
-         BtnActionPerformed(BT27);
+        BtnActionPerformed(BT27);
     }//GEN-LAST:event_BT27ActionPerformed
 
     private void BT28ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT28ActionPerformed
         // TODO add your handling code here:
-         BtnActionPerformed(BT28);
+        BtnActionPerformed(BT28);
     }//GEN-LAST:event_BT28ActionPerformed
 
     private void BT31ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT31ActionPerformed
         // TODO add your handling code here:
-         BtnActionPerformed(BT31);
+        BtnActionPerformed(BT31);
     }//GEN-LAST:event_BT31ActionPerformed
 
     private void BT32ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT32ActionPerformed
         // TODO add your handling code here:
-         BtnActionPerformed(BT32);
+        BtnActionPerformed(BT32);
     }//GEN-LAST:event_BT32ActionPerformed
 
     private void BT33ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT33ActionPerformed
         // TODO add your handling code here:
-         BtnActionPerformed(BT33);
+        BtnActionPerformed(BT33);
     }//GEN-LAST:event_BT33ActionPerformed
 
     private void BT34ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT34ActionPerformed
         // TODO add your handling code here:
-         BtnActionPerformed(BT34);
+        BtnActionPerformed(BT34);
     }//GEN-LAST:event_BT34ActionPerformed
 
     private void BT35ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT35ActionPerformed
         // TODO add your handling code here:
-         BtnActionPerformed(BT35);
+        BtnActionPerformed(BT35);
     }//GEN-LAST:event_BT35ActionPerformed
 
     private void BT36ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT36ActionPerformed
         // TODO add your handling code here:
-         BtnActionPerformed(BT36);
+        BtnActionPerformed(BT36);
     }//GEN-LAST:event_BT36ActionPerformed
 
     private void BT37ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT37ActionPerformed
         // TODO add your handling code here:
-         BtnActionPerformed(BT37);
+        BtnActionPerformed(BT37);
     }//GEN-LAST:event_BT37ActionPerformed
 
     private void BT38ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT38ActionPerformed
         // TODO add your handling code here:
-         BtnActionPerformed(BT38);
+        BtnActionPerformed(BT38);
     }//GEN-LAST:event_BT38ActionPerformed
 
     private void BT41ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT41ActionPerformed
         // TODO add your handling code here:
-         BtnActionPerformed(BT41);
+        BtnActionPerformed(BT41);
     }//GEN-LAST:event_BT41ActionPerformed
 
     private void BT42ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT42ActionPerformed
         // TODO add your handling code here:
-         BtnActionPerformed(BT42);
+        BtnActionPerformed(BT42);
     }//GEN-LAST:event_BT42ActionPerformed
 
     private void BT43ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT43ActionPerformed
         // TODO add your handling code here:
-         BtnActionPerformed(BT43);
+        BtnActionPerformed(BT43);
     }//GEN-LAST:event_BT43ActionPerformed
 
     private void BT44ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT44ActionPerformed
         // TODO add your handling code here:
-         BtnActionPerformed(BT44);
+        BtnActionPerformed(BT44);
     }//GEN-LAST:event_BT44ActionPerformed
 
     private void BT45ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT45ActionPerformed
         // TODO add your handling code here:
-         BtnActionPerformed(BT45);
+        BtnActionPerformed(BT45);
     }//GEN-LAST:event_BT45ActionPerformed
 
     private void BT46ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT46ActionPerformed
         // TODO add your handling code here:
-         BtnActionPerformed(BT46);
+        BtnActionPerformed(BT46);
     }//GEN-LAST:event_BT46ActionPerformed
 
     private void BT47ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT47ActionPerformed
         // TODO add your handling code here:
-         BtnActionPerformed(BT47);
+        BtnActionPerformed(BT47);
     }//GEN-LAST:event_BT47ActionPerformed
 
     private void BT48ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT48ActionPerformed
         // TODO add your handling code here:
-         BtnActionPerformed(BT48);
+        BtnActionPerformed(BT48);
     }//GEN-LAST:event_BT48ActionPerformed
 
     private void BT51ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT51ActionPerformed
         // TODO add your handling code here:
-         BtnActionPerformed(BT51);
+        BtnActionPerformed(BT51);
     }//GEN-LAST:event_BT51ActionPerformed
 
     private void BT52ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT52ActionPerformed
         // TODO add your handling code here:
-         BtnActionPerformed(BT52);
+        BtnActionPerformed(BT52);
     }//GEN-LAST:event_BT52ActionPerformed
 
     private void BT53ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT53ActionPerformed
         // TODO add your handling code here:
-         BtnActionPerformed(BT53);
+        BtnActionPerformed(BT53);
     }//GEN-LAST:event_BT53ActionPerformed
 
     private void BT54ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT54ActionPerformed
         // TODO add your handling code here:
-         BtnActionPerformed(BT54);
-         
+        BtnActionPerformed(BT54);
+
     }//GEN-LAST:event_BT54ActionPerformed
 
     private void BT55ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT55ActionPerformed
         // TODO add your handling code here:
-         BtnActionPerformed(BT55);
+        BtnActionPerformed(BT55);
     }//GEN-LAST:event_BT55ActionPerformed
 
     private void BT56ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT56ActionPerformed
         // TODO add your handling code here:
-         BtnActionPerformed(BT56);
+        BtnActionPerformed(BT56);
     }//GEN-LAST:event_BT56ActionPerformed
 
     private void BT57ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT57ActionPerformed
         // TODO add your handling code here:
-         BtnActionPerformed(BT57);
+        BtnActionPerformed(BT57);
     }//GEN-LAST:event_BT57ActionPerformed
 
     private void BT58ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT58ActionPerformed
         // TODO add your handling code here:
-         BtnActionPerformed(BT58);
+        BtnActionPerformed(BT58);
     }//GEN-LAST:event_BT58ActionPerformed
 
     private void BT61ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT61ActionPerformed
         // TODO add your handling code here:
-         BtnActionPerformed(BT61);
+        BtnActionPerformed(BT61);
     }//GEN-LAST:event_BT61ActionPerformed
 
     private void BT62ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT62ActionPerformed
         // TODO add your handling code here:
-         BtnActionPerformed(BT62);
+        BtnActionPerformed(BT62);
     }//GEN-LAST:event_BT62ActionPerformed
 
     private void BT63ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT63ActionPerformed
         // TODO add your handling code here:
-         BtnActionPerformed(BT63);
+        BtnActionPerformed(BT63);
     }//GEN-LAST:event_BT63ActionPerformed
 
     private void BT64ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT64ActionPerformed
         // TODO add your handling code here:
-         BtnActionPerformed(BT64);
+        BtnActionPerformed(BT64);
     }//GEN-LAST:event_BT64ActionPerformed
 
     private void BT65ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT65ActionPerformed
         // TODO add your handling code here:
-         BtnActionPerformed(BT65);
+        BtnActionPerformed(BT65);
     }//GEN-LAST:event_BT65ActionPerformed
 
     private void BT66ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT66ActionPerformed
         // TODO add your handling code here:
-         BtnActionPerformed(BT66);
+        BtnActionPerformed(BT66);
     }//GEN-LAST:event_BT66ActionPerformed
 
     private void BT67ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT67ActionPerformed
         // TODO add your handling code here:
-         BtnActionPerformed(BT67);
+        BtnActionPerformed(BT67);
     }//GEN-LAST:event_BT67ActionPerformed
 
     private void BT68ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT68ActionPerformed
         // TODO add your handling code here:
-         BtnActionPerformed(BT68);
+        BtnActionPerformed(BT68);
     }//GEN-LAST:event_BT68ActionPerformed
 
     private void BT71ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT71ActionPerformed
         // TODO add your handling code here:
-         BtnActionPerformed(BT71);
+        BtnActionPerformed(BT71);
     }//GEN-LAST:event_BT71ActionPerformed
 
     private void BT72ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT72ActionPerformed
         // TODO add your handling code here:
-         BtnActionPerformed(BT72);
+        BtnActionPerformed(BT72);
     }//GEN-LAST:event_BT72ActionPerformed
 
     private void BT73ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT73ActionPerformed
         // TODO add your handling code here:
-         BtnActionPerformed(BT73);
+        BtnActionPerformed(BT73);
     }//GEN-LAST:event_BT73ActionPerformed
 
     private void BT74ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT74ActionPerformed
         // TODO add your handling code here:
-         BtnActionPerformed(BT74);
+        BtnActionPerformed(BT74);
     }//GEN-LAST:event_BT74ActionPerformed
 
     private void BT75ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT75ActionPerformed
         // TODO add your handling code here:
-         BtnActionPerformed(BT75);
+        BtnActionPerformed(BT75);
     }//GEN-LAST:event_BT75ActionPerformed
 
     private void BT76ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT76ActionPerformed
         // TODO add your handling code here:
-         BtnActionPerformed(BT76);
+        BtnActionPerformed(BT76);
     }//GEN-LAST:event_BT76ActionPerformed
 
     private void BT77ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT77ActionPerformed
         // TODO add your handling code here:
-         BtnActionPerformed(BT77);
+        BtnActionPerformed(BT77);
     }//GEN-LAST:event_BT77ActionPerformed
 
     private void BT78ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT78ActionPerformed
         // TODO add your handling code here:
-         BtnActionPerformed(BT78);
+        BtnActionPerformed(BT78);
     }//GEN-LAST:event_BT78ActionPerformed
 
     private void BT81ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT81ActionPerformed
         // TODO add your handling code here:
-         BtnActionPerformed(BT81);
+        BtnActionPerformed(BT81);
     }//GEN-LAST:event_BT81ActionPerformed
 
     private void BT82ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT82ActionPerformed
         // TODO add your handling code here:
-         BtnActionPerformed(BT82);
+        BtnActionPerformed(BT82);
     }//GEN-LAST:event_BT82ActionPerformed
 
     private void BT83ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT83ActionPerformed
         // TODO add your handling code here:
-         BtnActionPerformed(BT83);
+        BtnActionPerformed(BT83);
     }//GEN-LAST:event_BT83ActionPerformed
 
     private void BT84ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT84ActionPerformed
         // TODO add your handling code here:
-         BtnActionPerformed(BT84);
+        BtnActionPerformed(BT84);
     }//GEN-LAST:event_BT84ActionPerformed
 
     private void BT85ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT85ActionPerformed
         // TODO add your handling code here:
-         BtnActionPerformed(BT85);
+        BtnActionPerformed(BT85);
     }//GEN-LAST:event_BT85ActionPerformed
 
     private void BT86ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT86ActionPerformed
         // TODO add your handling code here:
-         BtnActionPerformed(BT86);
+        BtnActionPerformed(BT86);
     }//GEN-LAST:event_BT86ActionPerformed
 
     private void BT87ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT87ActionPerformed
         // TODO add your handling code here:
-         BtnActionPerformed(BT87);
+        BtnActionPerformed(BT87);
     }//GEN-LAST:event_BT87ActionPerformed
 
     private void BT88ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BT88ActionPerformed
         // TODO add your handling code here:
-         BtnActionPerformed(BT88);
+        BtnActionPerformed(BT88);
     }//GEN-LAST:event_BT88ActionPerformed
-    
+
     void BtnActionPerformed(javax.swing.JButton btn) {
         if (btn.isEnabled() && myAgent.isTurn()) {
-             System.out.println("Button Clicked");
+
             btn.setBackground(Color.black);
             deactivateButton();
-            System.out.println(btn.getName());
-            int pos = Integer.parseInt(btn.getName().substring(2,btn.getName().length()));
-            int row=(pos/10)-1;
-            int column=(pos%10)-1;
-            System.out.println("button arr:"+column+" "+row);
-            String result=(column+1)+""+(row+1)+",";
-            boolean validLeft=false;   
-            boolean validRight=false;
-            boolean validDown=false;
-            boolean validUp=false;
-            
-             for(int i=0;i<8;i++){
-                        for(int j=0;j<8;j++){
-                               System.out.print(myAgent.tictactoe[i][j]+" ");
-                       } 
-                        System.out.println(" ");
-                    }
-                    
-       
-        //kiri
-//           try{
-//            if(myAgent.tictactoe[column-1][row]==1){
-//                for(int k=column-1;k>0;k--){
-//                      if(myAgent.tictactoe[k-1][row]==-1){
-//                        validLeft=true;
-//                        break;
-//                      }
-//                      if(myAgent.tictactoe[k-1][row]==0){
-//                        break;
-//                      }
-//                 }
-//               
-//             }
-//            }
-//            catch(Exception e){
-//                
-//            }
-//           
-//             
-//       //kanan
-//      
-//           try{
-//               if(myAgent.tictactoe[column+1][row]==1){
-//                for(int k=column+1;k+1<8;k++){
-//                      if(myAgent.tictactoe[k+1][row]==-1){
-//                        validRight=true;
-//                        break;
-//                      }
-//                      if(myAgent.tictactoe[k+1][row]==0){
-//                        break;
-//                      }
-//                 }
-//            
-//             }
-//            }
-//            catch(Exception e){
-//                
-//            }
-//           
-//         
-//       //bawah
-//        try{
-//           if(myAgent.tictactoe[column][row+1]==1){
-//                for(int k=row+1;k+1<8;k++){
-//                      if(myAgent.tictactoe[column][k+1]==-1){
-//                        validDown=true;
-//                        break;
-//                      }
-//                      if(myAgent.tictactoe[column][k+1]==0){
-//                        break;
-//                      }
-//                 }
-//             }   
-//        }
-//         catch(Exception e){
-//                
-//        }
-//           
-//         
-//         
-//       //atas
-//       try{
-//           if(myAgent.tictactoe[column][row-1]==1){
-//                for(int k=row-1;k>0;k--){
-//                      if(myAgent.tictactoe[column][k-1]==-1){
-//                        validUp=true;
-//                        break;
-//                      }
-//                      if(myAgent.tictactoe[column][k-1]==0){
-//                        break;
-//                      }
-//                 }
-//              }   
-//        }
-//         catch(Exception e){
-//                
-//        }
 
-         
-        
-      
-//      if(validLeft==true){
-           System.out.println(column+" "+row);
-          for(int k=column-1;k>0;k--){
-           if(myAgent.tictactoe[k][row]==-1){
-               
-                break;
-             }
-           else if(myAgent.tictactoe[k][row]==1){
-               
-                        String temp=(k+1)+""+(row+1);
-                         result=result+temp+",";
-                        System.out.println("temp: "+temp);
-                        getButton(Integer.parseInt(temp)).setBackground(Color.black);                       
-             }
-          }
-          
-//      }
-//      if(validRight==true){
-       System.out.println("MasukRight");
-          for(int k=column+1;k<8;k++){
-           if(myAgent.tictactoe[k][row]==-1){
-               break;
-             }
-           else  if(myAgent.tictactoe[k][row]==1){
-                       String temp=(k+1)+""+(row+1);
-                       result=result+temp+",";
-                        System.out.println("temp: "+temp);
-                        getButton(Integer.parseInt(temp)).setBackground(Color.black);         
-                        
-             }
-          }
-              
-//      }
-//      if(validUp==true){
-             System.out.println("MasukUp");
-          for(int k=row-1;k>0;k--){
-                System.out.println(column+" "+k+" "+myAgent.tictactoe[column+1][k]);
-           if(myAgent.tictactoe[column][k]==-1){
-                        break;
-               }
-           else if(myAgent.tictactoe[column][k]==1){
-                        String temp=(column+1)+""+(k+1);
-                        result=result+temp+",";
-                        System.out.println("temp: "+temp);
-                        getButton(Integer.parseInt(temp)).setBackground(Color.black);                
-               }
-          }    
-//      }
-//      if(validDown==true){
-             System.out.println("MasukDown");
-             System.out.println(column+" "+row);
-          for(int k=row+1;k<8;k++){
-                   if(myAgent.tictactoe[column][k]==-1){
+            int pos = Integer.parseInt(btn.getName().substring(2, btn.getName().length()));
+            int column = (pos / 10) - 1;
+            int row = (pos % 10) - 1;
+            System.out.println(pos);
+            String result = (row + 1) + "" + (column + 1) + ",";
+            System.out.println(row + " " + column);
 
-                       break;
-                      }
-                else if(myAgent.tictactoe[column][k]==1){
-                        String temp=(column+1)+""+(k+1);
-                        result=result+temp+",";
-                        System.out.println("temp: "+temp);
-                        getButton(Integer.parseInt(temp)).setBackground(Color.black);   
-                        
-                      }
-              }
-//      }
-            
+            for (int i = 0; i < 8; i++) {
+                for (int j = 0; j < 8; j++) {
+                    System.out.print(myAgent.tictactoe[i][j] + " ");
+                }
+                System.out.println(" ");
+            }
+
+            for (int k = column - 1; k > 0; k--) {
+                if (myAgent.tictactoe[row][k] == -1 || myAgent.tictactoe[row][k] == 0) {
+
+                    break;
+                } else if (myAgent.tictactoe[row][k] == 1) {
+
+                    String temp = (row + 1) + "" + (k + 1);
+                    result = result + temp + ",";
+
+                    getButton(Integer.parseInt(temp)).setBackground(Color.black);
+                }
+            }
+
+            for (int k = column + 1; k < 8; k++) {
+                if (myAgent.tictactoe[row][k] == -1 || myAgent.tictactoe[row][k] == 0  ) {
+                    break;
+                } else if (myAgent.tictactoe[row][k] == 1) {
+                    String temp = (row + 1) + "" + (k + 1);
+                    result = result + temp + ",";
+
+                    getButton(Integer.parseInt(temp)).setBackground(Color.black);
+
+                }
+            }
+
+            for (int k = row - 1; k > 0; k--) {
+
+                if (myAgent.tictactoe[k][column] == -1 || myAgent.tictactoe[k][column] == 0) {
+                    break;
+                } else if (myAgent.tictactoe[k][column] == 1) {
+                    String temp = (k + 1) + "" + (column + 1);
+                    result = result + temp + ",";
+
+                    getButton(Integer.parseInt(temp)).setBackground(Color.black);
+                }
+            }
+
+            for (int k = row + 1; k < 8; k++) {
+                if (myAgent.tictactoe[k][column] == -1 || myAgent.tictactoe[k][column] == 0 ) {
+
+                    break;
+                } else if (myAgent.tictactoe[k][column] == 1) {
+                    String temp = (k + 1) + "" + (column + 1);
+                    result = result + temp + ",";
+
+                    getButton(Integer.parseInt(temp)).setBackground(Color.black);
+
+                }
+            }
+
+            for (int i = 0; i < 8; i++) {
+                for (int j = 0; j < 8; j++) {
+                    System.out.print(myAgent.tictactoe[i][j] + " ");
+                }
+                System.out.println(" ");
+            }
+
+            System.out.println("result: " + result);
             myAgent.updateBoard(result);
-            notifyUser(btn.getName()+" is pressed.");
-        }         
+            notifyUser(btn.getName() + " is pressed.");
+        }
     }
-    
-    void validate(int pos){
-       int column=(pos/10)-1;
-       int row=(pos%10)-1;
-       boolean validLeft=false;   
-       boolean validRight=false;
-       boolean validDown=false;
-       boolean validUp=false;
-       
+
+    void validate(int pos) {
+        int column = (pos / 10) - 1;
+        int row = (pos % 10) - 1;
+        boolean validLeft = false;
+        boolean validRight = false;
+        boolean validDown = false;
+        boolean validUp = false;
+
         //kiri
-            try{
-            if(myAgent.tictactoe[column-1][row]==1){
-                for(int k=column-1;k>0;k--){
-                      if(myAgent.tictactoe[k-1][row]==-1){
-                        validLeft=true;
+        try {
+            if (myAgent.tictactoe[column - 1][row] == 1) {
+                for (int k = column - 1; k > 0; k--) {
+                    if (myAgent.tictactoe[k - 1][row] == -1) {
+                        validLeft = true;
                         break;
-                      }
-                      if(myAgent.tictactoe[k-1][row]==0){
+                    }
+                    if (myAgent.tictactoe[k - 1][row] == 0) {
                         break;
-                      }
-                 }
-               
-             }
+                    }
+                }
+
             }
-            catch(Exception e){
-                
+        } catch (Exception e) {
+
+        }
+
+        //kanan
+        try {
+            if (myAgent.tictactoe[column + 1][row] == 1) {
+                for (int k = column + 1; k + 1 < 8; k++) {
+                    if (myAgent.tictactoe[k + 1][row] == -1) {
+                        validRight = true;
+                        break;
+                    }
+                    if (myAgent.tictactoe[k + 1][row] == 0) {
+                        break;
+                    }
+                }
+
             }
-           
-             
-       //kanan
-      
-           try{
-               if(myAgent.tictactoe[column+1][row]==1){
-                for(int k=column+1;k+1<8;k++){
-                      if(myAgent.tictactoe[k+1][row]==-1){
-                        validRight=true;
+        } catch (Exception e) {
+
+        }
+
+        //bawah
+        try {
+            if (myAgent.tictactoe[column][row + 1] == 1) {
+                for (int k = row + 1; k + 1 < 8; k++) {
+                    if (myAgent.tictactoe[column][k + 1] == -1) {
+                        validDown = true;
                         break;
-                      }
-                      if(myAgent.tictactoe[k+1][row]==0){
+                    }
+                    if (myAgent.tictactoe[column][k + 1] == 0) {
                         break;
-                      }
-                 }
-            
-             }
+                    }
+                }
             }
-            catch(Exception e){
-                
+        } catch (Exception e) {
+
+        }
+
+        //atas
+        try {
+            if (myAgent.tictactoe[column][row - 1] == 1) {
+                for (int k = row - 1; k > 0; k--) {
+                    if (myAgent.tictactoe[column][k - 1] == -1) {
+                        validUp = true;
+                        break;
+                    }
+                    if (myAgent.tictactoe[column][k - 1] == 0) {
+                        break;
+                    }
+                }
             }
-           
-         
-       //bawah
-        try{
-           if(myAgent.tictactoe[column][row+1]==1){
-                for(int k=row+1;k+1<8;k++){
-                      if(myAgent.tictactoe[column][k+1]==-1){
-                        validDown=true;
-                        break;
-                      }
-                      if(myAgent.tictactoe[column][k+1]==0){
-                        break;
-                      }
-                 }
-             }   
+        } catch (Exception e) {
+
         }
-         catch(Exception e){
-                
+
+        if (validLeft == true || validRight == true || validUp == true || validDown == true) {
+            getButton(pos).setEnabled(true);
+            getButton(pos).setText("Move");
         }
-           
-         
-         
-       //atas
-       try{
-           if(myAgent.tictactoe[column][row-1]==1){
-                for(int k=row-1;k>0;k--){
-                      if(myAgent.tictactoe[column][k-1]==-1){
-                        validUp=true;
-                        break;
-                      }
-                      if(myAgent.tictactoe[column][k-1]==0){
-                        break;
-                      }
-                 }
-              }   
-        }
-         catch(Exception e){
-                
-        }
-         
-        
-      
-      if(validLeft==true||validRight==true||validUp==true||validDown==true){
-             getButton(pos).setEnabled(true); 
-              getButton(pos).setText("Move");
-      }
-      
+
     }
-    
-    public void activateButton(){
-        for (int i=0; i<88; i++) {
-                    if(getButton(i)!=null){
-                        int c=(i/10)-1;
-                        int r=(i%10)-1;
-                        if(myAgent.tictactoe[c][r]==0){
-                            validate(i);
-                            //getButton(i).setEnabled(true); 
-                        }
-                     }
-                   
+
+    public void activateButton() {
+        for (int i = 0; i < 88; i++) {
+            if (getButton(i) != null) {
+                int c = (i / 10) - 1;
+                int r = (i % 10) - 1;
+                if (myAgent.tictactoe[c][r] == 0) {
+                    validate(i);
+                    //getButton(i).setEnabled(true); 
+                }
+            }
+
         }
     }
-    
-    public void deactivateButton(){
-        for (int i=0; i<88; i++) {
-            if(getButton(i)!=null){
-                    getButton(i).setEnabled(false);
+
+    public void deactivateButton() {
+        for (int i = 0; i < 88; i++) {
+            if (getButton(i) != null) {
+                getButton(i).setEnabled(false);
             }
         }
     }
 
-
-    public javax.swing.JButton getButton(int btn){
+    public javax.swing.JButton getButton(int btn) {
         javax.swing.JButton b = null;
         switch (btn) {
-            case 11: b = BT11; break;
-            case 12: b = BT12; break;    
-            case 13: b = BT13; break;
-            case 14: b = BT14; break;
-            case 15: b = BT15; break;    
-            case 16: b = BT16; break;
-            case 17: b = BT17; break;
-            case 18: b = BT18; break;
-            case 21: b = BT21; break;
-            case 22: b = BT22; break;    
-            case 23: b = BT23; break;
-            case 24: b = BT24; break;
-            case 25: b = BT25; break;    
-            case 26: b = BT26; break;
-            case 27: b = BT27; break;
-            case 28: b = BT28; break;
-            case 31: b = BT31; break;
-            case 32: b = BT32; break;    
-            case 33: b = BT33; break;
-            case 34: b = BT34; break;
-            case 35: b = BT35; break;    
-            case 36: b = BT36; break;
-            case 37: b = BT37; break;
-            case 38: b = BT38; break;
-            case 41: b = BT41; break;
-            case 42: b = BT42; break;    
-            case 43: b = BT43; break;
-            case 44: b = BT44; break;
-            case 45: b = BT45; break;    
-            case 46: b = BT46; break;
-            case 47: b = BT47; break;
-            case 48: b = BT48; break;
-            case 51: b = BT51; break;
-            case 52: b = BT52; break;    
-            case 53: b = BT53; break;
-            case 54: b = BT54; break;
-            case 55: b = BT55; break;    
-            case 56: b = BT56; break;
-            case 57: b = BT57; break;
-            case 58: b = BT58; break;
-            case 61: b = BT61; break;
-            case 62: b = BT62; break;    
-            case 63: b = BT63; break;
-            case 64: b = BT64; break;
-            case 65: b = BT65; break;    
-            case 66: b = BT66; break;
-            case 67: b = BT67; break;
-            case 68: b = BT68; break;
-            case 71: b = BT71; break;
-            case 72: b = BT72; break;    
-            case 73: b = BT73; break;
-            case 74: b = BT74; break;
-            case 75: b = BT75; break;    
-            case 76: b = BT76; break;
-            case 77: b = BT77; break;
-            case 78: b = BT78; break;
-            case 81: b = BT81; break;
-            case 82: b = BT82; break;    
-            case 83: b = BT83; break;
-            case 84: b = BT84; break;
-            case 85: b = BT85; break;    
-            case 86: b = BT86; break;
-            case 87: b = BT87; break;
-            case 88: b = BT88; break;
+            case 11:
+                b = BT11;
+                break;
+            case 12:
+                b = BT12;
+                break;
+            case 13:
+                b = BT13;
+                break;
+            case 14:
+                b = BT14;
+                break;
+            case 15:
+                b = BT15;
+                break;
+            case 16:
+                b = BT16;
+                break;
+            case 17:
+                b = BT17;
+                break;
+            case 18:
+                b = BT18;
+                break;
+            case 21:
+                b = BT21;
+                break;
+            case 22:
+                b = BT22;
+                break;
+            case 23:
+                b = BT23;
+                break;
+            case 24:
+                b = BT24;
+                break;
+            case 25:
+                b = BT25;
+                break;
+            case 26:
+                b = BT26;
+                break;
+            case 27:
+                b = BT27;
+                break;
+            case 28:
+                b = BT28;
+                break;
+            case 31:
+                b = BT31;
+                break;
+            case 32:
+                b = BT32;
+                break;
+            case 33:
+                b = BT33;
+                break;
+            case 34:
+                b = BT34;
+                break;
+            case 35:
+                b = BT35;
+                break;
+            case 36:
+                b = BT36;
+                break;
+            case 37:
+                b = BT37;
+                break;
+            case 38:
+                b = BT38;
+                break;
+            case 41:
+                b = BT41;
+                break;
+            case 42:
+                b = BT42;
+                break;
+            case 43:
+                b = BT43;
+                break;
+            case 44:
+                b = BT44;
+                break;
+            case 45:
+                b = BT45;
+                break;
+            case 46:
+                b = BT46;
+                break;
+            case 47:
+                b = BT47;
+                break;
+            case 48:
+                b = BT48;
+                break;
+            case 51:
+                b = BT51;
+                break;
+            case 52:
+                b = BT52;
+                break;
+            case 53:
+                b = BT53;
+                break;
+            case 54:
+                b = BT54;
+                break;
+            case 55:
+                b = BT55;
+                break;
+            case 56:
+                b = BT56;
+                break;
+            case 57:
+                b = BT57;
+                break;
+            case 58:
+                b = BT58;
+                break;
+            case 61:
+                b = BT61;
+                break;
+            case 62:
+                b = BT62;
+                break;
+            case 63:
+                b = BT63;
+                break;
+            case 64:
+                b = BT64;
+                break;
+            case 65:
+                b = BT65;
+                break;
+            case 66:
+                b = BT66;
+                break;
+            case 67:
+                b = BT67;
+                break;
+            case 68:
+                b = BT68;
+                break;
+            case 71:
+                b = BT71;
+                break;
+            case 72:
+                b = BT72;
+                break;
+            case 73:
+                b = BT73;
+                break;
+            case 74:
+                b = BT74;
+                break;
+            case 75:
+                b = BT75;
+                break;
+            case 76:
+                b = BT76;
+                break;
+            case 77:
+                b = BT77;
+                break;
+            case 78:
+                b = BT78;
+                break;
+            case 81:
+                b = BT81;
+                break;
+            case 82:
+                b = BT82;
+                break;
+            case 83:
+                b = BT83;
+                break;
+            case 84:
+                b = BT84;
+                break;
+            case 85:
+                b = BT85;
+                break;
+            case 86:
+                b = BT86;
+                break;
+            case 87:
+                b = BT87;
+                break;
+            case 88:
+                b = BT88;
+                break;
         }
         return b;
-    }    
-    
-    public void setAgent(Player2Agent a) {   
-        myAgent = a;   
-        setTitle(myAgent.getName());   
-    }   
-    
-    public void notifyUser(String message) {  
-        System.out.println("Tic : "+message);
+    }
+
+    public void setAgent(Player2Agent a) {
+        myAgent = a;
+        setTitle(myAgent.getName());
+    }
+
+    public void notifyUser(String message) {
+        System.out.println("Tic : " + message);
         //logTA.append(message+"\n");   
-    } 
-    
-     /**
+    }
+
+    /**
      * @param args the command line arguments
      */
     public static void main(String args[]) {

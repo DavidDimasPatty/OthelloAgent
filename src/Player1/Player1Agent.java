@@ -4,17 +4,18 @@
  * and open the template in the editor.
  */
 package Player1;
+
 import jade.core.AID;
 import jade.core.Agent;
 import jade.core.behaviours.*;
 import jade.lang.acl.ACLMessage;
 import java.awt.Color;
 
-public class Player1Agent extends Agent 
-{
+public class Player1Agent extends Agent {
+
     //comment
-    private Player1AgentGUI tacGui; 
-    public int [][] tictactoe = new int [8][8]; 
+    private Player1AgentGUI tacGui;
+    public int[][] tictactoe = new int[8][8];
     boolean turn = false; // turn
     int step = 0;
     int row, column;
@@ -22,15 +23,15 @@ public class Player1Agent extends Agent
 
     protected void setup() {
         // Printout a welcome message   
-        System.out.println("Tac-agent "+getAID().getName()+" is ready.");   
-        tictactoe[3][3]=1;
-        tictactoe[3][4]=-1;
-        tictactoe[4][3]=-1;
-        tictactoe[4][4]=1;
+        System.out.println("Tac-agent " + getAID().getName() + " is ready.");
+        tictactoe[3][3] = 1;
+        tictactoe[3][4] = -1;
+        tictactoe[4][3] = -1;
+        tictactoe[4][4] = 1;
         // Show the GUI to interact with the user   
-        tacGui = new Player1AgentGUIImpl();   
-        tacGui.setAgent(this);   
-        tacGui.show();   
+        tacGui = new Player1AgentGUIImpl();
+        tacGui.setAgent(this);
+        tacGui.show();
 
         // menunggu tawaran bermain dari tic
         addBehaviour(new waitingBehaviour(this));
@@ -40,12 +41,13 @@ public class Player1Agent extends Agent
 
     // perilaku tac pada saat menunggu tawaran bermain dari tic
     class waitingBehaviour extends CyclicBehaviour {
-	ACLMessage msg= receive();
-        
-        public waitingBehaviour (Agent a) {
+
+        ACLMessage msg = receive();
+
+        public waitingBehaviour(Agent a) {
             super(a);
         }
-        
+
         public void action() {
             if (step == 0) {
                 msg = receive();
@@ -53,94 +55,91 @@ public class Player1Agent extends Agent
                     lastMsg = msg.getContent();
                     msg = new ACLMessage(ACLMessage.INFORM);
                     // menjawab tawaran
-                    msg.setContent( "Okay!" );
-                    msg.addReceiver( new AID( "Player2", AID.ISLOCALNAME) );
-                    System.out.println("Player2-> Player1: "+ msg.getContent());
+                    msg.setContent("Okay!");
+                    msg.addReceiver(new AID("Player2", AID.ISLOCALNAME));
+                    System.out.println("Player2-> Player1: " + msg.getContent());
                     send(msg); // masuk ke tahap bermain
-                    step = 1; 
+                    step = 1;
                 }
             }
         }
-    }    
-    
+    }
+
     // perilaku tac pada saat bermain
     class playingBehaviour extends CyclicBehaviour {
-	ACLMessage msg= receive();
-        
-        public playingBehaviour (Agent a) {
+
+        ACLMessage msg = receive();
+
+        public playingBehaviour(Agent a) {
             super(a);
         }
-        
+
         public void action() {
             if (step == 1 && !isTurn()) {
                 msg = receive();
-            
-                if ((msg != null) && (!msg.getContent().equals((String) lastMsg))){
+
+                if ((msg != null) && (!msg.getContent().equals((String) lastMsg))) {
                     lastMsg = msg.getContent();
-                    
-                    String tempbt="";
-                    for(int i=0;i<msg.getContent().length();i++){
-                        if(msg.getContent().charAt(i)==','){
-                           
-                            int r = Integer.parseInt(String.valueOf(tempbt.charAt(1)));
-                            int c = Integer.parseInt(String.valueOf(tempbt.charAt(0)));
-                            tictactoe[c-1][r-1] = -1;
-                            System.out.println("playP1: "+(c-1)+" "+(r-1));
-                            String rc=c+""+r;
-                            int butCase=Integer.parseInt(rc);
+
+                    String tempbt = "";
+                    for (int i = 0; i < msg.getContent().length(); i++) {
+                        if (msg.getContent().charAt(i) == ',') {
+
+                            int r = Integer.parseInt(String.valueOf(tempbt.charAt(0)));
+                            int c = Integer.parseInt(String.valueOf(tempbt.charAt(1)));
+                            tictactoe[r - 1][c - 1] = -1;
+                            String rc = r + "" + c;
+                            int butCase = Integer.parseInt(rc);
                             javax.swing.JButton btn = tacGui.getButton(butCase);
                             btn.setBackground(Color.black);
-                            tempbt="";
-                        }
-                        else{
-                        tempbt=tempbt+msg.getContent().charAt(i);
+                            tempbt = "";
+                        } else {
+                            tempbt = tempbt + msg.getContent().charAt(i);
                         }
                     }
-                    for(int i=0;i<8;i++){
-                        for(int j=0;j<8;j++){
-                               System.out.print(tictactoe[i][j]+" ");
-                       } 
+                    for (int i = 0; i < 8; i++) {
+                        for (int j = 0; j < 8; j++) {
+                            System.out.print(tictactoe[i][j] + " ");
+                        }
                         System.out.println(" ");
                     }
-                    
+
                     tacGui.activateButton();
                     setTurn(true);
                 }
             }
-        }    
+        }
     }
-    
-    boolean isTurn(){
-        return (turn); 
+
+    boolean isTurn() {
+        return (turn);
     }
-    
-    void setTurn(boolean b){
+
+    void setTurn(boolean b) {
         turn = b;
     }
-    
-    void updateBoard(String bt){
+
+    void updateBoard(String bt) {
         setTurn(false);
-          String tempBT="";
-          
-        for(int i=0;i<bt.length();i++){
-              if(bt.charAt(i)==','){
-                row = Integer.parseInt(String.valueOf(tempBT.charAt(1)));
-                column = Integer.parseInt(String.valueOf(tempBT.charAt(0)));
-               
-                tictactoe[column-1][row-1] = 1;
-                System.out.println("updateP1: "+(column-1)+" "+(row-1));
-                  tempBT="";
-              }
-              else{
-                  tempBT=tempBT+bt.charAt(i);
-              }
+        String tempBT = "";
+
+        for (int i = 0; i < bt.length(); i++) {
+            if (bt.charAt(i) == ',') {
+                row = Integer.parseInt(String.valueOf(tempBT.charAt(0)));
+                column = Integer.parseInt(String.valueOf(tempBT.charAt(1)));
+
+                tictactoe[row - 1][column - 1] = 1;
+                tempBT = "";
+            } else {
+                tempBT = tempBT + bt.charAt(i);
+            }
         }
         // kirim berita ke tic
         ACLMessage msg = new ACLMessage(ACLMessage.INFORM);
-	msg.setContent(""+bt);
-     	msg.addReceiver( new AID( "Player2", AID.ISLOCALNAME) );
+        msg.setContent("" + bt);
+        msg.addReceiver(new AID("Player2", AID.ISLOCALNAME));
         System.out.println("Player1 -> Player2: " + msg.getContent());
-	send(msg);
+        send(msg);
     }
-    
+
 }//end class TacAgent

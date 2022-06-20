@@ -8,95 +8,97 @@ package Player2;
 import jade.core.AID;
 import jade.core.Agent;
 import jade.core.behaviours.*;
-import jade.lang.acl.ACLMessage;  
+import jade.lang.acl.ACLMessage;
 import java.awt.Color;
+
 public class Player2Agent extends Agent {
-    private Player2AgentGUI ticGui; 
-    public int [][] tictactoe = new int [8][8];
+
+    private Player2AgentGUI ticGui;
+    public int[][] tictactoe = new int[8][8];
     boolean turn = true; // turn
     int step = 0;
     int row, column;
-   
-    protected void setup(){
-        System.out.println("Tic-agent "+getAID().getName()+" is ready.");   
-        tictactoe[3][3]=1;
-        tictactoe[3][4]=-1;
-        tictactoe[4][3]=-1;
-        tictactoe[4][4]=1;
+
+    protected void setup() {
+        System.out.println("Tic-agent " + getAID().getName() + " is ready.");
+        tictactoe[3][3] = 1;
+        tictactoe[3][4] = -1;
+        tictactoe[4][3] = -1;
+        tictactoe[4][4] = 1;
         // Show the GUI to interact with the user   
-        ticGui = new Player2GUIImplementation();   
-        ticGui.setAgent(this);   
-        ticGui.show();  
+        ticGui = new Player2GUIImplementation();
+        ticGui.setAgent(this);
+        ticGui.show();
         // mengundang tac untuk bermain
         addBehaviour(new invitingBehaviour(this));
         // selanjutnya masuk ke permainan
         addBehaviour(new playingBehaviour(this));
     }
-    
+
     // perilaku tic pada saat mengundang tac untuk bermain
     class invitingBehaviour extends CyclicBehaviour {
-        String lastMsg = "";
-	ACLMessage msg= receive();
 
-        public invitingBehaviour (Agent a) {
+        String lastMsg = "";
+        ACLMessage msg = receive();
+
+        public invitingBehaviour(Agent a) {
             super(a);
         }
-        
-        public void action(){
+
+        public void action() {
             if (step == 0) {
                 ACLMessage msg = new ACLMessage(ACLMessage.INFORM);
-                msg.setContent( "Play Othello" );
-                msg.addReceiver( new AID( "Player1", AID.ISLOCALNAME) );
-                System.out.println("Player1 -> Player2: "+ msg.getContent());
+                msg.setContent("Play Othello");
+                msg.addReceiver(new AID("Player1", AID.ISLOCALNAME));
+                System.out.println("Player1 -> Player2: " + msg.getContent());
                 send(msg);
                 block(500);
                 // tunggu beberapa saat
-                msg= receive();
+                msg = receive();
                 //System.out.println(msg.getContent());
-                if (msg!=null && msg.getContent().contains("Okay")) {
+                if (msg != null && msg.getContent().contains("Okay")) {
                     step = 1;
                     ticGui.activateButton();
                 }
-            }           
+            }
         }
     }
-    
+
     // perilaku tic pada saat bermain
     class playingBehaviour extends CyclicBehaviour {
-        String lastMsg = "";
-	ACLMessage msg= receive();
 
-        public playingBehaviour (Agent a) {
+        String lastMsg = "";
+        ACLMessage msg = receive();
+
+        public playingBehaviour(Agent a) {
             super(a);
         }
-        
+
         public void action() {
             if (step == 1 && !isTurn()) {
                 msg = receive();
-                if ((msg != null) && (!msg.getContent().equals((String) lastMsg))){
-                    
-                    String tempbt="";
-                    for(int i=0;i<msg.getContent().length();i++){
-                        if(msg.getContent().charAt(i)==','){
-                           
+                if ((msg != null) && (!msg.getContent().equals((String) lastMsg))) {
+
+                    String tempbt = "";
+                    for (int i = 0; i < msg.getContent().length(); i++) {
+                        if (msg.getContent().charAt(i) == ',') {
+
                             int r = Integer.parseInt(String.valueOf(tempbt.charAt(0)));
                             int c = Integer.parseInt(String.valueOf(tempbt.charAt(1)));
-                            tictactoe[c-1][r-1] = 1;
-                            System.out.println("playP2: "+(c-1)+" "+(r-1));
-                            String rc=c+""+r;
-                            int butCase=Integer.parseInt(rc);
+                            tictactoe[r - 1][c - 1] = 1;
+                            String rc = r + "" + c;
+                            int butCase = Integer.parseInt(rc);
                             javax.swing.JButton btn = ticGui.getButton(butCase);
                             btn.setBackground(Color.red);
-                            tempbt="";
-                        }
-                        else{
-                        tempbt=tempbt+msg.getContent().charAt(i);
+                            tempbt = "";
+                        } else {
+                            tempbt = tempbt + msg.getContent().charAt(i);
                         }
                     }
-                      for(int i=0;i<8;i++){
-                        for(int j=0;j<8;j++){
-                               System.out.print(tictactoe[i][j]+" ");
-                       } 
+                    for (int i = 0; i < 8; i++) {
+                        for (int j = 0; j < 8; j++) {
+                            System.out.print(tictactoe[i][j] + " ");
+                        }
                         System.out.println(" ");
                     }
                     ticGui.activateButton();
@@ -107,42 +109,40 @@ public class Player2Agent extends Agent {
     }
 
     // cek sedang dapat giliran atau tidak
-    boolean isTurn(){
-        return (turn); 
+    boolean isTurn() {
+        return (turn);
     }
-    
+
     // set dapat giliran atau tidak 
-    void setTurn(boolean b){
+    void setTurn(boolean b) {
         turn = b;
     }
-    
+
     // mencatat perubahan papan permainan
     // method ini dipanggil setiap kali ada tombol yang ditekan oleh pemain
-    void updateBoard(String bt){
+    void updateBoard(String bt) {
         setTurn(false);
-        String tempBT="";
-        for(int i=0;i<bt.length();i++){
-              if(bt.charAt(i)==','){
-                row = Integer.parseInt(String.valueOf(tempBT.charAt(1)));
-                column = Integer.parseInt(String.valueOf(tempBT.charAt(0)));
-               System.out.println("updateP2: "+(row-1)+" "+(column-1));
-                tictactoe[column-1][row-1] = -1;
-                  tempBT="";
-              }
-              else{
-                  tempBT=tempBT+bt.charAt(i);
-              }
+        String tempBT = "";
+        for (int i = 0; i < bt.length(); i++) {
+            if (bt.charAt(i) == ',') {
+                row = Integer.parseInt(String.valueOf(tempBT.charAt(0)));
+                column = Integer.parseInt(String.valueOf(tempBT.charAt(1)));
+                tictactoe[row - 1][column - 1] = -1;
+                tempBT = "";
+            } else {
+                tempBT = tempBT + bt.charAt(i);
+            }
         }
 //        row = Integer.parseInt(String.valueOf(bt.charAt(2)))-1;
 //        column = Integer.parseInt(String.valueOf(bt.charAt(3)))-1;
 //        tictactoe[column][row] = -1;
 //        // kirim berita ke tac
         ACLMessage msg = new ACLMessage(ACLMessage.INFORM);
-	msg.setContent(""+bt);
-     	msg.addReceiver( new AID( "Player1", AID.ISLOCALNAME) );
+        msg.setContent("" + bt);
+        msg.addReceiver(new AID("Player1", AID.ISLOCALNAME));
         System.out.println("Player2 -> Player1: " + msg.getContent());
 //        System.out.println("pesan "+ msg.toString());
-	send(msg);
+        send(msg);
     }
- //comment   
+    //comment   
 }
