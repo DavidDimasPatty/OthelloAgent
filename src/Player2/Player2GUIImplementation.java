@@ -1368,94 +1368,95 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
                     
        
         //kiri
-           try{
-            if(myAgent.tictactoe[column-1][row]==1){
-                for(int k=column-1;k>0;k--){
-                      if(myAgent.tictactoe[k-1][row]==-1){
-                        validLeft=true;
-                        break;
-                      }
-                      if(myAgent.tictactoe[k-1][row]==0){
-                        break;
-                      }
-                 }
-               
-             }
-            }
-            catch(Exception e){
-                
-            }
-           
-             
-       //kanan
-      
-           try{
-               if(myAgent.tictactoe[column+1][row]==1){
-                for(int k=column+1;k+1<8;k++){
-                      if(myAgent.tictactoe[k+1][row]==-1){
-                        validRight=true;
-                        break;
-                      }
-                      if(myAgent.tictactoe[k+1][row]==0){
-                        break;
-                      }
-                 }
-            
-             }
-            }
-            catch(Exception e){
-                
-            }
-           
-         
-       //bawah
-        try{
-           if(myAgent.tictactoe[column][row+1]==1){
-                for(int k=row+1;k+1<8;k++){
-                      if(myAgent.tictactoe[column][k+1]==-1){
-                        validDown=true;
-                        break;
-                      }
-                      if(myAgent.tictactoe[column][k+1]==0){
-                        break;
-                      }
-                 }
-             }   
-        }
-         catch(Exception e){
-                
-        }
-           
-         
-         
-       //atas
-       try{
-           if(myAgent.tictactoe[column][row-1]==1){
-                for(int k=row-1;k>0;k--){
-                      if(myAgent.tictactoe[column][k-1]==-1){
-                        validUp=true;
-                        break;
-                      }
-                      if(myAgent.tictactoe[column][k-1]==0){
-                        break;
-                      }
-                 }
-              }   
-        }
-         catch(Exception e){
-                
-        }
+//           try{
+//            if(myAgent.tictactoe[column-1][row]==1){
+//                for(int k=column-1;k>0;k--){
+//                      if(myAgent.tictactoe[k-1][row]==-1){
+//                        validLeft=true;
+//                        break;
+//                      }
+//                      if(myAgent.tictactoe[k-1][row]==0){
+//                        break;
+//                      }
+//                 }
+//               
+//             }
+//            }
+//            catch(Exception e){
+//                
+//            }
+//           
+//             
+//       //kanan
+//      
+//           try{
+//               if(myAgent.tictactoe[column+1][row]==1){
+//                for(int k=column+1;k+1<8;k++){
+//                      if(myAgent.tictactoe[k+1][row]==-1){
+//                        validRight=true;
+//                        break;
+//                      }
+//                      if(myAgent.tictactoe[k+1][row]==0){
+//                        break;
+//                      }
+//                 }
+//            
+//             }
+//            }
+//            catch(Exception e){
+//                
+//            }
+//           
+//         
+//       //bawah
+//        try{
+//           if(myAgent.tictactoe[column][row+1]==1){
+//                for(int k=row+1;k+1<8;k++){
+//                      if(myAgent.tictactoe[column][k+1]==-1){
+//                        validDown=true;
+//                        break;
+//                      }
+//                      if(myAgent.tictactoe[column][k+1]==0){
+//                        break;
+//                      }
+//                 }
+//             }   
+//        }
+//         catch(Exception e){
+//                
+//        }
+//           
+//         
+//         
+//       //atas
+//       try{
+//           if(myAgent.tictactoe[column][row-1]==1){
+//                for(int k=row-1;k>0;k--){
+//                      if(myAgent.tictactoe[column][k-1]==-1){
+//                        validUp=true;
+//                        break;
+//                      }
+//                      if(myAgent.tictactoe[column][k-1]==0){
+//                        break;
+//                      }
+//                 }
+//              }   
+//        }
+//         catch(Exception e){
+//                
+//        }
 
          
         
       
-      if(validLeft==true){
-           
+//      if(validLeft==true){
+           System.out.println(column+" "+row);
           for(int k=column-1;k>0;k--){
            if(myAgent.tictactoe[k][row]==-1){
+               
                 break;
              }
-           if(myAgent.tictactoe[k][row]==1){
+           else if(myAgent.tictactoe[k][row]==1){
                
                         String temp=(k+1)+""+(row+1);
                          result=result+temp+",";
@@ -1464,14 +1465,14 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
              }
           }
           
-      }
-      if(validRight==true){
+//      }
+//      if(validRight==true){
        System.out.println("MasukRight");
           for(int k=column+1;k<8;k++){
            if(myAgent.tictactoe[k][row]==-1){
                break;
              }
-           if(myAgent.tictactoe[k][row]==1){
+           else  if(myAgent.tictactoe[k][row]==1){
                        String temp=(k+1)+""+(row+1);
                        result=result+temp+",";
                         System.out.println("temp: "+temp);
@@ -1480,28 +1481,31 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
              }
           }
               
-      }
-      if(validUp==true){
+//      }
+//      if(validUp==true){
              System.out.println("MasukUp");
           for(int k=row-1;k>0;k--){
+                System.out.println(column+" "+k+" "+myAgent.tictactoe[column+1][k]);
            if(myAgent.tictactoe[column][k]==-1){
                         break;
                }
-           if(myAgent.tictactoe[column][k]==1){
+           else if(myAgent.tictactoe[column][k]==1){
                         String temp=(column+1)+""+(k+1);
                         result=result+temp+",";
                         System.out.println("temp: "+temp);
                         getButton(Integer.parseInt(temp)).setBackground(Color.black);                
                }
           }    
-      }
-      if(validDown==true){
+//      }
+//      if(validDown==true){
              System.out.println("MasukDown");
+             System.out.println(column+" "+row);
           for(int k=row+1;k<8;k++){
                    if(myAgent.tictactoe[column][k]==-1){
-                         break;
+
+                       break;
                       }
-                    if(myAgent.tictactoe[column][k]==1){
+                else if(myAgent.tictactoe[column][k]==1){
                         String temp=(column+1)+""+(k+1);
                         result=result+temp+",";
                         System.out.println("temp: "+temp);
@@ -1509,7 +1513,7 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
                         
                       }
               }
-      }
+//      }
             
             myAgent.updateBoard(result);
             notifyUser(btn.getName()+" is pressed.");
