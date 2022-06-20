@@ -1364,54 +1364,101 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
                 }
                 System.out.println(" ");
             }
+            boolean validLeft = false;
+            boolean validRight = false;
+            boolean validUp = false;
+            boolean validDown = false;
 
+            //kiri
             for (int k = column - 1; k > 0; k--) {
-                if (myAgent.tictactoe[row][k] == -1 || myAgent.tictactoe[row][k] == 0) {
-
+                if (myAgent.tictactoe[row][k] == -1) {
+                    validLeft = true;
                     break;
-                } else if (myAgent.tictactoe[row][k] == 1) {
-
-                    String temp = (row + 1) + "" + (k + 1);
-                    result = result + temp + ",";
-
-                    getButton(Integer.parseInt(temp)).setBackground(Color.black);
                 }
             }
 
+            //kanan
             for (int k = column + 1; k < 8; k++) {
-                if (myAgent.tictactoe[row][k] == -1 || myAgent.tictactoe[row][k] == 0  ) {
+                if (myAgent.tictactoe[row][k] == -1) {
+                    validRight = true;
                     break;
-                } else if (myAgent.tictactoe[row][k] == 1) {
-                    String temp = (row + 1) + "" + (k + 1);
-                    result = result + temp + ",";
-
-                    getButton(Integer.parseInt(temp)).setBackground(Color.black);
-
                 }
             }
-
+            //atas
             for (int k = row - 1; k > 0; k--) {
 
-                if (myAgent.tictactoe[k][column] == -1 || myAgent.tictactoe[k][column] == 0) {
+                if (myAgent.tictactoe[k][column] == -1) {
+                    validUp = true;
                     break;
-                } else if (myAgent.tictactoe[k][column] == 1) {
-                    String temp = (k + 1) + "" + (column + 1);
-                    result = result + temp + ",";
+                }
+            }
+            //bawah
+            for (int k = row + 1; k < 8; k++) {
 
-                    getButton(Integer.parseInt(temp)).setBackground(Color.black);
+                if (myAgent.tictactoe[k][column] == -1) {
+                    validDown = true;
+                    break;
                 }
             }
 
-            for (int k = row + 1; k < 8; k++) {
-                if (myAgent.tictactoe[k][column] == -1 || myAgent.tictactoe[k][column] == 0 ) {
+            if (validLeft) {
+                for (int k = column - 1; k > 0; k--) {
+                    if (myAgent.tictactoe[row][k] == -1 || myAgent.tictactoe[row][k] == 0) {
 
-                    break;
-                } else if (myAgent.tictactoe[k][column] == 1) {
-                    String temp = (k + 1) + "" + (column + 1);
-                    result = result + temp + ",";
+                        break;
+                    } else if (myAgent.tictactoe[row][k] == 1) {
 
-                    getButton(Integer.parseInt(temp)).setBackground(Color.black);
+                        String temp = (row + 1) + "" + (k + 1);
+                        result = result + temp + ",";
 
+                        getButton(Integer.parseInt(temp)).setBackground(Color.black);
+                    }
+                }
+            }
+
+            if (validRight) {
+
+                for (int k = column + 1; k < 8; k++) {
+                    if (myAgent.tictactoe[row][k] == -1 || myAgent.tictactoe[row][k] == 0) {
+                        break;
+                    } else if (myAgent.tictactoe[row][k] == 1) {
+                        String temp = (row + 1) + "" + (k + 1);
+                        result = result + temp + ",";
+
+                        getButton(Integer.parseInt(temp)).setBackground(Color.black);
+
+                    }
+                }
+            }
+
+            if (validUp) {
+
+                for (int k = row - 1; k > 0; k--) {
+
+                    if (myAgent.tictactoe[k][column] == -1 || myAgent.tictactoe[k][column] == 0) {
+                        break;
+                    } else if (myAgent.tictactoe[k][column] == 1) {
+                        String temp = (k + 1) + "" + (column + 1);
+                        result = result + temp + ",";
+
+                        getButton(Integer.parseInt(temp)).setBackground(Color.black);
+                    }
+                }
+            }
+
+            if (validDown) {
+
+                for (int k = row + 1; k < 8; k++) {
+                    if (myAgent.tictactoe[k][column] == -1 || myAgent.tictactoe[k][column] == 0) {
+
+                        break;
+                    } else if (myAgent.tictactoe[k][column] == 1) {
+                        String temp = (k + 1) + "" + (column + 1);
+                        result = result + temp + ",";
+
+                        getButton(Integer.parseInt(temp)).setBackground(Color.black);
+
+                    }
                 }
             }
 
@@ -1508,7 +1555,7 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
 
         if (validLeft == true || validRight == true || validUp == true || validDown == true) {
             getButton(pos).setEnabled(true);
-            getButton(pos).setText("Move");
+            getButton(pos).setBackground(Color.green);
         }
 
     }
@@ -1528,10 +1575,18 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
     }
 
     public void deactivateButton() {
-        for (int i = 0; i < 88; i++) {
+           for (int i = 0; i < 88; i++) {
             if (getButton(i) != null) {
+              Color c1 = Color.GREEN;
+                
+                if (getButton(i).getBackground().getRGB()==c1.getRGB()) {
+                 getButton(i).setBackground(Color.white);
+                }
                 getButton(i).setEnabled(false);
+                getButton(i).setText("");
             }
+            
+
         }
     }
 

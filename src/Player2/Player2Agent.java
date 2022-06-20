@@ -5,6 +5,7 @@
  */
 package Player2;
 
+import Player1.Player1AgentGUIImpl;
 import jade.core.AID;
 import jade.core.Agent;
 import jade.core.behaviours.*;
@@ -90,17 +91,13 @@ public class Player2Agent extends Agent {
                             int butCase = Integer.parseInt(rc);
                             javax.swing.JButton btn = ticGui.getButton(butCase);
                             btn.setBackground(Color.red);
+
                             tempbt = "";
                         } else {
                             tempbt = tempbt + msg.getContent().charAt(i);
                         }
                     }
-                    for (int i = 0; i < 8; i++) {
-                        for (int j = 0; j < 8; j++) {
-                            System.out.print(tictactoe[i][j] + " ");
-                        }
-                        System.out.println(" ");
-                    }
+                   
                     ticGui.activateButton();
                     setTurn(true);
                 }
