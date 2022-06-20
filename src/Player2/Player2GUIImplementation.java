@@ -1350,8 +1350,8 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
             deactivateButton();
             System.out.println(btn.getName());
             int pos = Integer.parseInt(btn.getName().substring(2,btn.getName().length()));
-            int column=(pos/10)-1;
-            int row=(pos%10)-1;
+            int row=(pos/10)-1;
+            int column=(pos%10)-1;
             System.out.println("button arr:"+column+" "+row);
             String result=(column+1)+""+(row+1)+",";
             boolean validLeft=false;   

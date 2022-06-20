@@ -1339,66 +1339,66 @@ btnActionPerformed(BT55);
              
        //kanan
       
-           try{
-               if(myAgent.tictactoe[column+1][row]==-1){
-                for(int k=column+1;k+1<8;k++){
-                      if(myAgent.tictactoe[k+1][row]==1){
-                        validRight=true;
-                        break;
-                      }
-                      if(myAgent.tictactoe[k+1][row]==0){
-                        break;
-                      }
-                 }
-            
-             }
-            }
-            catch(Exception e){
-                
-            }
-           
-         
-       //bawah
-        try{
-           if(myAgent.tictactoe[column][row+1]==-1){
-                for(int k=row+1;k+1<8;k++){
-                      if(myAgent.tictactoe[column][k+1]==1){
-                        validDown=true;
-                        break;
-                      }
-                      if(myAgent.tictactoe[column][k+1]==0){
-                        break;
-                      }
-                 }
-             }   
-        }
-         catch(Exception e){
-                
-        }
-           
-         
-         
-       //atas
-       try{
-           if(myAgent.tictactoe[column][row-1]==-1){
-                for(int k=row-1;k>0;k--){
-                      if(myAgent.tictactoe[column][k-1]==1){
-                        validUp=true;
-                        break;
-                      }
-                      if(myAgent.tictactoe[column][k-1]==0){
-                        break;
-                      }
-                 }
-              }   
-        }
-         catch(Exception e){
-                
-        }
-         
+//           try{
+//               if(myAgent.tictactoe[column+1][row]==-1){
+//                for(int k=column+1;k+1<8;k++){
+//                      if(myAgent.tictactoe[k+1][row]==1){
+//                        validRight=true;
+//                        break;
+//                      }
+//                      if(myAgent.tictactoe[k+1][row]==0){
+//                        break;
+//                      }
+//                 }
+//            
+//             }
+//            }
+//            catch(Exception e){
+//                
+//            }
+//           
+//         
+//       //bawah
+//        try{
+//           if(myAgent.tictactoe[column][row+1]==-1){
+//                for(int k=row+1;k+1<8;k++){
+//                      if(myAgent.tictactoe[column][k+1]==1){
+//                        validDown=true;
+//                        break;
+//                      }
+//                      if(myAgent.tictactoe[column][k+1]==0){
+//                        break;
+//                      }
+//                 }
+//             }   
+//        }
+//         catch(Exception e){
+//                
+//        }
+//           
+//         
+//         
+//       //atas
+//       try{
+//           if(myAgent.tictactoe[column][row-1]==-1){
+//                for(int k=row-1;k>0;k--){
+//                      if(myAgent.tictactoe[column][k-1]==1){
+//                        validUp=true;
+//                        break;
+//                      }
+//                      if(myAgent.tictactoe[column][k-1]==0){
+//                        break;
+//                      }
+//                 }
+//              }   
+//        }
+//         catch(Exception e){
+//                
+//        }
+//         
         
       
-      if(validLeft==true){
+//      if(validLeft==true){
          System.out.println("MasukLeft");
           for(int k=column-1;k>0;k--){
            if(myAgent.tictactoe[k][row]==1){
@@ -1414,8 +1414,8 @@ btnActionPerformed(BT55);
              }
           }
           
-      }
-      if(validRight==true){
+//      }
+//      if(validRight==true){
        System.out.println("MasukRight");
           for(int k=column+1;k<8;k++){
            if(myAgent.tictactoe[k][row]==1){
@@ -1432,8 +1432,8 @@ btnActionPerformed(BT55);
              }
           }
               
-      }
-      if(validUp==true){
+//      }
+//      if(validUp==true){
        System.out.println("MasukUp");        
           for(int k=row-1;k>0;k--){
            if(myAgent.tictactoe[column][k]==1){
@@ -1447,8 +1447,8 @@ btnActionPerformed(BT55);
                         getButton(Integer.parseInt(tempP1)).setBackground(Color.red);                
                }
           }    
-      }
-      if(validDown==true){
+//      }
+//      if(validDown==true){
                 System.out.println("MasukDown");
           for(int k=row+1;k<8;k++){
                    if(myAgent.tictactoe[column][k]==1){
@@ -1463,7 +1463,7 @@ btnActionPerformed(BT55);
                         
                       }
               }
-      }
+//      }
             
             myAgent.updateBoard(result);
             notifyUser(btn.getName()+" is pressed.");

@@ -123,8 +123,8 @@ public class Player2Agent extends Agent {
         String tempBT="";
         for(int i=0;i<bt.length();i++){
               if(bt.charAt(i)==','){
-                row = Integer.parseInt(String.valueOf(tempBT.charAt(0)));
-                column = Integer.parseInt(String.valueOf(tempBT.charAt(1)));
+                row = Integer.parseInt(String.valueOf(tempBT.charAt(1)));
+                column = Integer.parseInt(String.valueOf(tempBT.charAt(0)));
                System.out.println("updateP2: "+(row-1)+" "+(column-1));
                 tictactoe[column-1][row-1] = -1;
                   tempBT="";

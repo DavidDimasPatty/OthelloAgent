@@ -82,8 +82,8 @@ public class Player1Agent extends Agent
                     for(int i=0;i<msg.getContent().length();i++){
                         if(msg.getContent().charAt(i)==','){
                            
-                            int r = Integer.parseInt(String.valueOf(tempbt.charAt(0)));
-                            int c = Integer.parseInt(String.valueOf(tempbt.charAt(1)));
+                            int r = Integer.parseInt(String.valueOf(tempbt.charAt(1)));
+                            int c = Integer.parseInt(String.valueOf(tempbt.charAt(0)));
                             tictactoe[c-1][r-1] = -1;
                             System.out.println("playP1: "+(c-1)+" "+(r-1));
                             String rc=c+""+r;
@@ -124,8 +124,8 @@ public class Player1Agent extends Agent
           
         for(int i=0;i<bt.length();i++){
               if(bt.charAt(i)==','){
-                row = Integer.parseInt(String.valueOf(tempBT.charAt(0)));
-                column = Integer.parseInt(String.valueOf(tempBT.charAt(1)));
+                row = Integer.parseInt(String.valueOf(tempBT.charAt(1)));
+                column = Integer.parseInt(String.valueOf(tempBT.charAt(0)));
                
                 tictactoe[column-1][row-1] = 1;
                 System.out.println("updateP1: "+(column-1)+" "+(row-1));
