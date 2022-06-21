@@ -6,6 +6,8 @@
 package Player1;
 
 import java.awt.Color;
+import javax.swing.JFrame;
+import javax.swing.JOptionPane;
 
 /**
  *
@@ -1733,6 +1735,31 @@ public class Player1AgentGUIImpl extends javax.swing.JFrame implements Player1Ag
                 }
             }
 
+        }
+         int count = 0;
+        for (int i = 0; i < 88; i++) {
+            if (getButton(i) != null) {
+                Color c1 = Color.GREEN;
+
+                if (getButton(i).getBackground().getRGB() == c1.getRGB()) {
+                    count++;
+                }
+
+            }
+
+        }
+        
+        if(count==0){
+              JFrame frame = new JFrame("frame");
+            Object[] options = {"close"};
+            int n = JOptionPane.showOptionDialog(frame,
+                "",
+                "END GAME",
+                JOptionPane.YES_NO_CANCEL_OPTION,
+                JOptionPane.QUESTION_MESSAGE,
+                null,
+                options,
+                options[2]);
         }
     }
 

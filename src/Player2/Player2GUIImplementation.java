@@ -6,6 +6,8 @@
 package Player2;
 
 import java.awt.Color;
+import javax.swing.JFrame;
+import javax.swing.JOptionPane;
 
 /**
  *
@@ -1449,7 +1451,7 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
 
             // diagonal kanan bawah
             try {
-                
+
                 if (myAgent.tictactoe[row + 1][column + 1] == 1) {
                     for (int i = 1; i > 0; i++) {
                         if (myAgent.tictactoe[row + i][column + i] == -1) {
@@ -1548,68 +1550,68 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
             }
 
             if (validUpRight) {
-            try {
-                            if (myAgent.tictactoe[row - 1][column + 1] == 1) {
-                                for (int i = 1; i > 0; i++) {
-                                    if (myAgent.tictactoe[row - i][column + i] == -1) {
-                                      
-                                        break;
-                                    }
-                                      if (myAgent.tictactoe[row - i][column + i] == 1) {
-                                        String temp = (row - i + 1) + "" + (column + i + 1);
-                                        result = result + temp + ",";
+                try {
+                    if (myAgent.tictactoe[row - 1][column + 1] == 1) {
+                        for (int i = 1; i > 0; i++) {
+                            if (myAgent.tictactoe[row - i][column + i] == -1) {
 
-                                        getButton(Integer.parseInt(temp)).setBackground(Color.black);
-                                    }
-
-                                }
+                                break;
                             }
-                        } catch (Exception e) {
+                            if (myAgent.tictactoe[row - i][column + i] == 1) {
+                                String temp = (row - i + 1) + "" + (column + i + 1);
+                                result = result + temp + ",";
+
+                                getButton(Integer.parseInt(temp)).setBackground(Color.black);
+                            }
+
                         }
+                    }
+                } catch (Exception e) {
+                }
             }
 
             if (validDownLeft) {
-                     try {
-                if (myAgent.tictactoe[row + 1][column - 1] == 1) {
-                    for (int i = 1; i > 0; i++) {
-                        if (myAgent.tictactoe[row + i][column - i] == -1) {
-                        
-                            break;
-                        }
-                        if (myAgent.tictactoe[row + i][column - i] == 1) {
-                                        String temp = (row + i + 1) + "" + (column - i + 1);
-                                        result = result + temp + ",";
+                try {
+                    if (myAgent.tictactoe[row + 1][column - 1] == 1) {
+                        for (int i = 1; i > 0; i++) {
+                            if (myAgent.tictactoe[row + i][column - i] == -1) {
 
-                                        getButton(Integer.parseInt(temp)).setBackground(Color.black);
-                        }
+                                break;
+                            }
+                            if (myAgent.tictactoe[row + i][column - i] == 1) {
+                                String temp = (row + i + 1) + "" + (column - i + 1);
+                                result = result + temp + ",";
 
+                                getButton(Integer.parseInt(temp)).setBackground(Color.black);
+                            }
+
+                        }
                     }
+                } catch (Exception e) {
                 }
-            } catch (Exception e) {
-            }
             }
 
             if (validDownRight) {
-                
-                     try {
-                        if (myAgent.tictactoe[row + 1][column + 1] == 1) {
-                            for (int i = 1; i > 0; i++) {
-                                if (myAgent.tictactoe[row + i][column + i] == -1) {
-                                   
-                                    break;
-                                }
-                                
-                                if (myAgent.tictactoe[row + i][column + i] == 1) {
-                                        String temp = (row + i + 1) + "" + (column + i + 1);
-                                        result = result + temp + ",";
 
-                                        getButton(Integer.parseInt(temp)).setBackground(Color.black);
-                                    }
+                try {
+                    if (myAgent.tictactoe[row + 1][column + 1] == 1) {
+                        for (int i = 1; i > 0; i++) {
+                            if (myAgent.tictactoe[row + i][column + i] == -1) {
 
+                                break;
                             }
+
+                            if (myAgent.tictactoe[row + i][column + i] == 1) {
+                                String temp = (row + i + 1) + "" + (column + i + 1);
+                                result = result + temp + ",";
+
+                                getButton(Integer.parseInt(temp)).setBackground(Color.black);
+                            }
+
                         }
-                    } catch (Exception e) {
-                   }
+                    }
+                } catch (Exception e) {
+                }
             }
 
             for (int i = 0; i < 8; i++) {
@@ -1790,6 +1792,31 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
                 }
             }
 
+        }
+        int count = 0;
+        for (int i = 0; i < 88; i++) {
+            if (getButton(i) != null) {
+                Color c1 = Color.GREEN;
+
+                if (getButton(i).getBackground().getRGB() == c1.getRGB()) {
+                    count++;
+                }
+
+            }
+
+        }
+        
+        if(count==0){
+            JFrame frame = new JFrame("frame");
+            Object[] options = {"close"};
+            int n = JOptionPane.showOptionDialog(frame,
+                " ",
+                "END GAME",
+                JOptionPane.YES_NO_CANCEL_OPTION,
+                JOptionPane.QUESTION_MESSAGE,
+                null,
+                options,
+                options[2]);
         }
     }
 
