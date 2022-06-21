@@ -1794,6 +1794,8 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
 
         }
         int count = 0;
+
+        //itung green
         for (int i = 0; i < 88; i++) {
             if (getButton(i) != null) {
                 Color c1 = Color.GREEN;
@@ -1805,18 +1807,45 @@ public class Player2GUIImplementation extends javax.swing.JFrame implements Play
             }
 
         }
-        
-        if(count==0){
+
+        if (count == 0) {
+            int countRed = 0;
+            int countBlack = 0;
+
+            //itung red
+            for (int i = 0; i < 88; i++) {
+                if (getButton(i) != null) {
+                    Color c1 = Color.red;
+
+                    if (getButton(i).getBackground().getRGB() == c1.getRGB()) {
+                        countRed++;
+                    }
+
+                }
+
+            }
+
+            //itung black
+            for (int i = 0; i < 88; i++) {
+                if (getButton(i) != null) {
+                    Color c1 = Color.black;
+
+                    if (getButton(i).getBackground().getRGB() == c1.getRGB()) {
+                        countBlack++;
+                    }
+
+                }
+
+            }
+
             JFrame frame = new JFrame("frame");
-            Object[] options = {"close"};
-            int n = JOptionPane.showOptionDialog(frame,
-                " ",
-                "END GAME",
-                JOptionPane.YES_NO_CANCEL_OPTION,
-                JOptionPane.QUESTION_MESSAGE,
-                null,
-                options,
-                options[2]);
+            if (countRed > countBlack) {
+                JOptionPane.showMessageDialog(frame, "Red Win \n Red Tiles: " + countRed + "\n Black Tiles: " + countBlack);
+            } else if (countBlack > countRed) {
+                JOptionPane.showMessageDialog(frame, "Black Win\n Red Tiles: " + countRed + "\n Black Tiles: " + countBlack);
+            } else {
+                JOptionPane.showMessageDialog(frame, "Draw\n Red Tiles: " + countRed + "\n Black Tiles: " + countBlack);
+            }
         }
     }
 
